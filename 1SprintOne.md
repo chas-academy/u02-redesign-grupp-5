@@ -173,15 +173,17 @@ Before friday we work on basic design and structure based on the user stories an
 
 ## Meeting 27 oct friday
 
-### Stand up meeting friday 9:00
+### Morning
 
 - Start code welcome page
+  - lolo navbar mobile
+  - matewos body
+  - nejat footer
+  - mikael figma 
   
-  - Structure
+  - Structure - Nejat did index.html
   
-- Issues
-
-- Update GitHub project board if needed
+- Issues - update github project
 
 ### Afternoon
 
@@ -196,9 +198,3 @@ Before friday we work on basic design and structure based on the user stories an
   - Timetable
 
   - Improvements/changes in any aspect of the project?
-  - 
-### Feedback
-
- - Nejat-Feedback
-During the Agile sprint retrospective, the team discussed both positive and negative aspects of the sprint, focusing on workflow, workload, and timetable. We examined what went well and what could have been improved in these areas. In terms of improvements and changes, the team collectively brainstormed ideas to enhance the project's overall efficiency, considering adjustments in workflow, workload distribution, and scheduling.
-
