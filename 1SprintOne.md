@@ -155,6 +155,8 @@ This user story was based on Lindas needs and preferences. The goal was to creat
 
 ---
 
+![Alt text](IMG/low-fidelity.png)
+
 Images for webpage
 
 ![Alt text](<IMG/drive img.png>)
