@@ -155,19 +155,19 @@ This user story was based on Lindas needs and preferences. The goal was to creat
 
 ---
 
-![Alt text](IMG/low-fidelity.png)
+![Alt text](/IMG-sprintdoc/low-fidelity.png)
 
 Images for webpage
 
-![Alt text](<IMG/drive img.png>)
+![Alt text](</IMG-sprintdoc/drive img.png>)
 
 Prototype
 
-![Alt text](<IMG/figma proto.png>)
+![Alt text](<IMG-sprintdoc/figma proto.png>)
 
 Method to work
 
-![Alt text](IMG/agile.png)
+![Alt text](IMG-sprintdoc/agile.png)
 
 ### New assignments
 
