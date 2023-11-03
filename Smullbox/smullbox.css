@@ -3,8 +3,20 @@
   margin: 0;
   font-family: tahoma, sans-serif;
 }
+/* $color-background: #fffdf6;
+$color-beige: #e4cf84;
+$color-gold: #d5a848;
+$text-color: #292929;
+ */
 
 h1 {
-  color: rgb(195, 188, 188);
-  font-size: 1.25rem;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.85rem;
 }
