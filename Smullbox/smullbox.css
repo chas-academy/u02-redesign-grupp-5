@@ -3,11 +3,6 @@
   margin: 0;
   font-family: tahoma, sans-serif;
 }
-/* $color-background: #fffdf6;
-$color-beige: #e4cf84;
-$color-gold: #d5a848;
-$text-color: #292929;
- */
 
 h1 {
   font-size: 2rem;
@@ -20,3 +15,10 @@ h3 {
 p {
   font-size: 0.85rem;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: tahoma, sans-serif;
+  background-color: #fffdf6;
+}/*# sourceMappingURL=smullbox.css.map */
