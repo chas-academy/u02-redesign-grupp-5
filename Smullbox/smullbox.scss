@@ -6,3 +6,21 @@
   font-family: tahoma, sans-serif;
   background-color: $color-background;
 }
+
+.smullbox-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-3 {
+  color: $color-gold;
+}
+.header-p {
+  font-weight: 100;
+}
+.header-text {
+  padding: 10px;
+}

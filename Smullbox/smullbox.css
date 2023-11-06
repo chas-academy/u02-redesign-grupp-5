@@ -21,4 +21,24 @@ p {
   margin: 0;
   font-family: tahoma, sans-serif;
   background-color: #fffdf6;
+}
+
+.smullbox-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-3 {
+  color: #d5a848;
+}
+
+.header-p {
+  font-weight: 100;
+}
+
+.header-text {
+  padding: 10px;
 }/*# sourceMappingURL=smullbox.css.map */
