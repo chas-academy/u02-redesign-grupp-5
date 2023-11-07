@@ -115,26 +115,55 @@ And important to know we cant use javascript, the main goal is to show we can re
 
 ---
 
-- Are we on time?
+- Are we on time? Yes.
 
-- Add our change any issues?
+- How to name and work with issues? "name-task" on our branches
 
-- Issue distrubution ok?
+- Issue distrubution ok? Yes everybody have something to work on.
 
-- Timetable reasonable?
+- Timetable reasonable? Yes it feel good know and that we are on time with tasks.
 
 ## Meeting friday 3 nov 9:30
 
-- Are we on time with what we want to achieve?
+- Footer is ready
+- Navbar mobil view is ready
+- Body is pushed to main
+- Colors are ready: 
+  - $color-background: #fffdf6;
+  - $color-beige: #e4cf84;
+  - $color-gold: #d5a848;
+  - $text-color: #292929;
+
+Keep on working on:
+
+- Navbar desktop
+- Member page
+- Contact page
+- Smulbox
+
+Pushed up to Github.
+
+For Sprint3 we discuss on monday morning what we want to achieve next week.
+
+![Alt text](IMG-sprintdoc/sk%C3%A4rmbildDiscord.png)
+
+---
 
 - Sprint retrospective:
 
   - Whats good/bad
+    - We needed to adjust or branches and make sure everybody pushed and namned branshes the same.
 
-  - Workflow
+- Workflow
+  - Is good and we help eachother and have continous contact on our Discord server.
 
-  - Workload
+- Workload
+  - Feels good, when somebody is ready we have a good project planning so nobody is idle handed.
 
-  - Timetable
+- Timetable
+  - Has been followed and feels on time for now.
 
-  - Improvements/changes in any aspect of the project?
+- Improvements/changes in any aspect of the project?
+  - We updated our routine for branching and for how and when to push.
+
+  We pushed up togehter during morning meeting and checked off about the week.

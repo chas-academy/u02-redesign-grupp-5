@@ -1,55 +1,100 @@
-/*Body*/
-
-body {
-  background-color: #DFD3A6;
-}
-
+@use "design";
 
 
 /*Nav Button*/
 
-.dropbtn {
-  position: fixed;
-  background: linear-gradient(45deg, rgb(18, 114, 98), rgb(2, 34, 54));
-  border-radius: 25px;
-  color: whitesmoke;
-  padding: 16px;
-  font-size: 1.9em;
-  border: none;
-  cursor: pointer;
-}
+/*<a href="#">logo.png</a> display none in mobile*/
 
-.dropdown {
-  top: 0;
-  position: fixed;
-  display: inline-block;
-}
+//id ="logo" make it not visable in dropdown possible
+
+ #logo {
+  size: 15px;
+   aspect-ratio: 1;
+ }
+
+ .dropdown {
+   top: 0;
+   position: fixed;
+   display: inline-block;
+ }
+
+ .dropbtn {
+   position: fixed;
+   background: $color-beige
+   border-radius: 5px;
+   color: $text-color;
+   padding: 16px;
+   font-size: 1.9em;
+   border: none;
+   cursor: pointer;
+  
+ }
+
+ .dropdown-content {
+   border-radius: 5px;
+   display: none;
+   position: absolute;
+   background: $color-beige;
+   min-width: 160px;
+   z-index: 0;
+ }
+
+ .dropdown-content a {
+   color: $text-color;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+
+ .dropdown-content a:hover {
+   background-color: $color-background;
+ }
+
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+
+ .dropdown:hover .dropbtn {
+   background-color: $color-background;
+ }
+
+
+/* Media query for Desktop and all device over 650 pixel */
+
+ @media only screen and (min-width: 650px) {
+
+ .nav {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-evenly;
+ }
+
+ .dropdown {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+ }
+
+ .dropbtn {
+   display: none;
+ }
 
 .dropdown-content {
-  border-radius: 25px;
-  display: none;
-  position: absolute;
-  background: linear-gradient(45deg, rgb(18, 114, 98), rgb(2, 34, 54));
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 0;
-}
+   display: inline-flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-evenly;
+   font-size: 2.5rem;
+ }
 
-.dropdown-content a {
-  color: whitesmoke;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+ .dropdown-content a {}
 
-.dropdown-content a:hover {
-  background-color: #000000;
-}
+ .navbar {
+   margin: auto;
+   justify-content: center;
+   text-align: center;
+ }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #19787b;
-}
+ }
+  

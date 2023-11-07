@@ -8,4 +8,6 @@
 
 [Sprint 2 documentation](2SprintTwo.md)
 
+[Sprint 3 documentation](3SprintThree.md)
+
 [Figma Design](https://www.figma.com/file/6L9XDujago4WoiYeGsBtY3/Redesign-u02?type=design&node-id=0%3A1&mode=design&t=OOyLAPjJOloOwCxW-1)
