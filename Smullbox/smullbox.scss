@@ -14,12 +14,18 @@
   justify-content: center;
   text-align: center;
 }
-
+@media screen and (max-width: 850px) {
+  .header-1 {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+  }
+}
 .header-3 {
   color: $color-gold;
 }
-.header-p {
+.p-text {
   font-weight: 100;
+  padding: 10px;
 }
 .header-text {
   padding: 10px;
