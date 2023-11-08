@@ -39,12 +39,12 @@ $bg-color:gold;
     padding: 30px 40px;
 }
 .contact-info{
-    width: 100%;
+    /* width: 100%; */
     background-color: #f8f8f8;
     /* height: 1000px; */
 }
 .section{
-    padding: 30px 10px;
+    padding: 30px 8px;
 }
 
 .phone {
@@ -134,7 +134,7 @@ $bg-color:gold;
     }
 
 
- @media only screen and (max-width: 390px) {
+ @media only screen and (max-width: 393px) {
     .location, .form {
         /* width: 100%; */
     }
@@ -152,10 +152,13 @@ $bg-color:gold;
     .archive{
         display: none;
     }
+    .contact-info{
+        width: 95%;
+    }
     
  }
 
- @media only screen and (min-width: 391px) {
+ @media only screen and (min-width: 395px) {
  
 .location, .form {
     /* width: 50%; */
@@ -191,6 +194,9 @@ $bg-color:gold;
                 border-color: #cdcdcd transparent transparent transparent;
         }
     }
+}
+.contact-info{
+    width: 100%;
 }
 .news{
     width: 70%;

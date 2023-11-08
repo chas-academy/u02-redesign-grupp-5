@@ -40,13 +40,13 @@
 }
 
 .contact-info {
-  width: 100%;
+  /* width: 100%; */
   background-color: #f8f8f8;
   /* height: 1000px; */
 }
 
 .section {
-  padding: 30px 10px;
+  padding: 30px 8px;
 }
 
 .phone {
@@ -137,7 +137,7 @@
   border-bottom: 1px solid #dedcd9;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 393px) {
   .location, .form {
     /* width: 100%; */
   }
@@ -155,8 +155,11 @@
   .archive {
     display: none;
   }
+  .contact-info {
+    width: 95%;
+  }
 }
-@media only screen and (min-width: 391px) {
+@media only screen and (min-width: 395px) {
   .location, .form {
     /* width: 50%; */
   }
@@ -191,6 +194,9 @@
     border-style: solid;
     border-width: 20px 15px 0 15px;
     border-color: #cdcdcd transparent transparent transparent;
+  }
+  .contact-info {
+    width: 100%;
   }
   .news {
     width: 70%;
