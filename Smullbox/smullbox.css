@@ -49,6 +49,7 @@ p {
 
 .header-text {
   padding: 10px;
+  margin: 40px;
 }
 
 .span-color {
@@ -94,4 +95,16 @@ p {
     width: 100%;
     height: auto;
   }
+}
+.food-menus {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.food-menu-img {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=smullbox.css.map */
