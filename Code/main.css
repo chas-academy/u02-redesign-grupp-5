@@ -404,6 +404,12 @@ footer {
   .footer-container .footer-center p {
     text-align: center; /* Centering the text */
   }
+  .footer-container .footer-right a,  .footer-container .footer-right i {
+    display:inline;
+    margin-right: 10px;
+   
+  
+  }
 }
 
 @media (min-width: 1920px) {
