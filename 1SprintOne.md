@@ -187,14 +187,18 @@ Before friday we work on basic design and structure based on the user stories an
 
 - Sprint retrospective:
 
-  - Whats good/bad: We feel its no big problems yet. We try to use our strenghts and competents evenly in the group and help each other.
+  - Whats good/bad
 
-  - Workflow: So far everything is flowing.
+  - Workflow
   
-  - Workload: We have a good work distrubution in the team.
+  - Workload
   
-  - Timetable: We are on time.
+  - Timetable
 
-  - Improvements/changes in any aspect of the project? We add a test branch.
-  
+  - Improvements/changes in any aspect of the project?
+  - 
+### Feedback
+
+ - Nejat-Feedback
+During the Agile sprint retrospective, the team discussed both positive and negative aspects of the sprint, focusing on workflow, workload, and timetable. We examined what went well and what could have been improved in these areas. In terms of improvements and changes, the team collectively brainstormed ideas to enhance the project's overall efficiency, considering adjustments in workflow, workload distribution, and scheduling.
 
