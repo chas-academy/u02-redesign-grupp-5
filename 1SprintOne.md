@@ -155,8 +155,6 @@ This user story was based on Lindas needs and preferences. The goal was to creat
 
 ---
 
-![Alt text](IMG/low-fidelity.png)
-
 Images for webpage
 
 ![Alt text](<IMG/drive img.png>)
@@ -175,17 +173,15 @@ Before friday we work on basic design and structure based on the user stories an
 
 ## Meeting 27 oct friday
 
-### Morning
+### Stand up meeting friday 9:00
 
 - Start code welcome page
-  - lolo navbar mobile
-  - matewos body
-  - nejat footer
-  - mikael figma 
   
-  - Structure - Nejat did index.html
+  - Structure
   
-- Issues - update github project
+- Issues
+
+- Update GitHub project board if needed
 
 ### Afternoon
 
@@ -200,3 +196,9 @@ Before friday we work on basic design and structure based on the user stories an
   - Timetable
 
   - Improvements/changes in any aspect of the project?
+  - 
+### Feedback
+
+ - Nejat-Feedback
+During the Agile sprint retrospective, the team discussed both positive and negative aspects of the sprint, focusing on workflow, workload, and timetable. We examined what went well and what could have been improved in these areas. In terms of improvements and changes, the team collectively brainstormed ideas to enhance the project's overall efficiency, considering adjustments in workflow, workload distribution, and scheduling.
+
