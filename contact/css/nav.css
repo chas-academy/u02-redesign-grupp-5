@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+/* Reset and Common styles for all screen sizes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Define custom color variable */
 :root {
-  --color-1: rgb(
-    239,
-    238,
-    238
-  ); /* Custom color variable for background */
+  --color-1:rgb(239, 238, 238) ; /* Custom color variable for background */
 }
 
 /* Remove underline from anchor elements */
@@ -49,7 +54,7 @@ ul {
 /* Logo and navigation styles */
 .header .logo,
 .header .nav {
-  padding: 0 15px; /* Add padding to logo and navigation */
+  padding: 0 20px; /* Add padding to logo and navigation */
   margin: auto;
 }
 

@@ -1,4 +1,4 @@
-/*footer*/
+/* footer css code start*/
 footer {
   bottom: 0;
   width: 100%;
@@ -182,4 +182,5 @@ footer {
 }
 .footer-container .footer-center p {
   text-align: center; /* Centering the text */
-}/*# sourceMappingURL=footer.css.map */
+} 
+/*end of css code for header, menu and footer*//*# sourceMappingURL=footer.css.map */
