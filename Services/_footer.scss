@@ -1,4 +1,11 @@
-/* footer css code start*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo a {
+  font-family: "Dancing Script", cursive;
+}
+
 footer {
   bottom: 0;
   width: 100%;
@@ -19,11 +26,14 @@ footer {
   font: bold 16px sans-serif;
   padding: 50px 50px 50px 50px;
   margin-top: 80px;
+
   margin-bottom: auto;
   line-height: 42px;
 }
 
-.footer-container .footer-left, .footer-container .footer-center, .footer-container .footer-right {
+.footer-container .footer-left,
+.footer-container .footer-center,
+.footer-container .footer-right {
   display: inline-block;
   vertical-align: top;
 }
@@ -169,18 +179,21 @@ footer {
   .footer-container .footer-center p {
     text-align: center; /* Centering the text */
   }
-  .footer-container .footer-right a, .footer-container .footer-right i {
+  .footer-container .footer-right a,
+  .footer-container .footer-right i {
     display: inline;
     margin-right: 10px;
   }
 }
+
 @media (min-width: 1920px) {
   .footer-container .footer-left {
     margin-bottom: auto;
     margin: 2rem;
   }
 }
+
 .footer-container .footer-center p {
   text-align: center; /* Centering the text */
-} 
-/*end of css code for header, menu and footer*//*# sourceMappingURL=footer.css.map */
+} /*# sourceMappingURL=style.css.map */
+/*end of css code for header, menu and footer*/
