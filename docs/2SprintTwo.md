@@ -29,24 +29,25 @@
 
 Are we on time?
 
-- Add our change any issues?
+- Add any issues? Updated project board
 
-- Issue distrubution ok?
+- Issue distrubution ok? Yes
 
-- Timetable reasonable?
+- Timetable reasonable? Yes
 
 ## Meeting friday 3 nov 9:30
 
-- Are we on time with what we want to achieve?
+- Are we on time with what we want to achieve? Yes 
 
 - Sprint retrospective:
 
-  - Whats good/bad
+  - Whats good/bad: Good that it feels like we have a good plan and communication.
 
-  - Workflow
+  - Workflow: Fells like steady forward
 
-  - Workload
+  - Workload: Evenly, everybody happy
 
-  - Timetable
+  - Timetable: Good
 
   - Improvements/changes in any aspect of the project?
+We wanna start push to main and test to merge
