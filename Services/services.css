@@ -1,0 +1,580 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+
+
+
+/* Reset and Common styles for all screen sizes */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Define custom color variable */
+:root{
+  --color-1:rgb(239, 238, 238)
+  ; /* Custom color variable for background */
+}
+
+
+ /* Remove underline from anchor elements */
+a{
+    text-decoration: none;
+}
+/* Remove default list styles */
+ul{
+    list-style: none;
+}
+  /* Center align content within the container */
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+ /* Create flexible and responsive layout using flexbox */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ /* Align items vertically center */
+.align-items-center{
+    align-items: center;
+}
+ /* Distribute space between items */
+.justify-content-between{
+    justify-content: space-between;
+}
+ /* Header styles */
+.header{
+    background-color: var(--color-1); /* Set background color using custom variable */
+    padding:12px 0; /* Add padding to the header */
+    position: relative;
+}
+ /* Logo and navigation styles */
+.header .logo,
+.header .nav{
+    padding:0 20px;  /* Add padding to logo and navigation */
+    margin: auto;
+}
+ /* Logo link styles */
+.header .logo a{
+    font-family: 'Dancing Script', cursive; /* Apply custom font to the logo text */
+    font-size: 25px; /* Set font size for the logo */
+    color:rgb(230, 125, 45); /* Set text color for the logo */
+    text-transform: capitalize; /* Capitalize the logo text */
+}
+
+ /* Navigation list item styles */
+ .header .nav ul li {
+    display: inline-block; /* Display list items inline */
+    margin-left: 40px; /* Add left margin between list items */
+  }
+
+ /* Navigation link styles */
+ .header .nav ul li a {
+    display: block; /* Display links as block elements */
+    font-size: 18px; /* Set font size for navigation links */
+    padding: 10px 0; /* Add padding to navigation links */
+    color: black; /* Set default text color for navigation links */
+    text-transform: capitalize; /* Capitalize navigation link text */
+    transition: all 0.5s ease; /* Add smooth transition effect to links */
+  }
+
+
+ /* Navigation link hover and active styles */
+ .header .nav ul li a:hover,
+ .header .nav ul li a.active {
+   color: black; /* Change text color on hover and active states */
+ }
+
+
+ /* Checkbox input for mobile navigation */
+ .header #nav-check {
+    position: absolute; /* Position the checkbox */
+    opacity: 0; /* Make checkbox invisible */
+    pointer-events: none; /* Disable pointer events for the checkbox */
+  }
+
+  /* Mobile navigation toggler styles */
+  .nav-toggler {
+    height: 34px; /* Set height for the toggler button */
+    width: 44px; /* Set width for the toggler button */
+    background-color: #a27f7f; /* Set background color for the toggler button */
+
+    border-radius: 4px; /* Add border-radius to create rounded corners */
+    cursor: pointer; /* Set cursor to pointer for interaction */
+    display: none; /* Hide toggler button by default */
+    align-items: center; /* Center align items within the button */
+    justify-content: center; /* Center align items within the button */
+    margin-right: 15px; /* Add right margin to the toggler button */
+  }
+
+ /* Styles for the three lines inside the toggler button */
+ .nav-toggler span {
+    display: block; /* Display as block element */
+    height: 2px; /* Set height for the lines */
+    width: 20px; /* Set width for the lines */
+    background-color: var(--color-1); /* Set background color using custom variable */
+    position: relative; /* Set position to relative for absolute positioning of pseudo-elements */
+
+  }
+
+ /* Styles for the pseudo-elements to create the lines */
+ .nav-toggler span::before,
+ .nav-toggler span::after {
+   content: ''; /* Add content to the pseudo-elements */
+   position: absolute; /* Set position to absolute for precise placement */
+   width: 100%; /* Set width for the pseudo-elements */
+   height: 100%; /* Set height for the pseudo-elements */
+   background-color: var(--color-1); /* Set background color using custom variable */
+   left: 0; /* Position pseudo-elements at the left edge */
+
+ }
+.nav-toggler span::before{
+    top: -6px;
+}
+.nav-toggler span::after{
+    top: 6px;
+}
+
+
+
+  /* Positioning and animation styles for the lines in the toggler button on smaller screens */
+  @media (max-width: 991px) {
+    .nav-toggler {
+      display: flex; /* Show toggler button on smaller screens */
+
+
+    }
+
+
+
+    /* Mobile navigation styles */
+    .header .nav {
+        position: absolute; /* Position the mobile navigation */
+        left: 0;
+        top: 100%; /* Position it below the header */
+        width: 100%; /* Take full width of the screen */
+        background-color: var(--color-1); /* Set background color using custom variable */
+        border-top: 1px solid rgba(210, 23, 23, 0.2); /* Add top border with transparency */
+        opacity: 0; /* Make the navigation initially invisible */
+        visibility: hidden; /* Hide the navigation initially */
+        transition: opacity 0.3s ease, visibility 0.3s ease; /* Add smooth transition effect */
+    }
+
+
+
+    /* Styles for list items in the mobile navigation */
+    .header .nav ul li {
+        display: block; /* Display list items as block elements */
+        margin: 0; /* Remove margin for list items */
+      }
+
+
+    /* Show mobile navigation when the checkbox is checked */
+    .header #nav-check:checked ~ .nav {
+        opacity: 1; /* Make the navigation visible */
+        visibility: visible; /* Make the navigation visible */
+
+      }
+
+
+
+        /* Styles for the toggler button when focused */
+        .header #nav-check:focus ~ .nav-toggler {
+            box-shadow: 0 0 15px #000000; /* Add shadow when focused */
+
+          }
+
+    .header #nav-check:checked ~ .nav-toggler span {
+        background-color: transparent;
+
+    }
+
+
+
+    /* Styles for the lines inside the toggler button when checked */
+    .header #nav-check:checked ~ .nav-toggler span::before,
+    .header #nav-check:checked ~ .nav-toggler span::after {
+      top: 0;
+      transform: rotate(45deg); /* Rotate lines to create an X */
+      transition: transform 0.3s ease; /* Add smooth transition effect */
+
+    }
+
+    /* Styles for the middle line of the X inside the toggler button */
+    .header #nav-check:checked ~ .nav-toggler span::after {
+      transform: rotate(-45deg); /* Rotate lines to create an X */
+    }
+  }
+/*menu code start*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+:root {
+--Main-Font: "Montserrat", sans-serif;
+--Heading-Font: "Playfair Display", serif;
+--Accent-Color: #ff9505;
+}
+
+body {
+line-height: 1.6;
+font-family: var(--Main-Font);
+background-color: #f5f5f5;
+color: #333;
+}
+
+.menu {
+margin: 2rem 0;
+}
+
+.menu-container {
+max-width: 1280px;
+margin: 0 auto;
+padding: 0 1rem;
+}
+
+.menu-head {
+text-align: center;
+}
+
+.menu-head h2 {
+font-family: var(--Heading-Font);
+font-size: 2.8rem;
+color: var(--Accent-Color);
+margin-bottom: 0.5rem;
+}
+
+.menu-head p {
+font-weight: 400;
+font-size: 1.2rem;
+width: 70%;
+margin: 0 auto 2rem;
+}
+
+.menu-btns {
+padding: 1rem 0;
+display: flex;
+justify-content: center;
+}
+.menu-btn a{
+color: var(--Accent-Color);
+text-decoration: none;
+
+}
+
+.menu-btn {
+font-family: var(--Main-Font);
+text-transform: uppercase;
+font-size: 1.2rem;
+font-weight: 700;
+background: none;
+border: none;
+color: var(--Accent-Color);
+cursor: pointer;
+margin: 0 2rem;
+transition: color 0.3s ease;
+}
+
+.menu-btn:hover {
+color: rgb(211, 132, 48);
+}
+
+.food-items {
+margin: 2rem 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.food-item {
+border-radius: 8px;
+overflow: hidden;
+background: #fff;
+color: var(--Accent-Color);
+margin: 1.5rem;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}
+
+.food-item:hover {
+transform: translateY(-5px);
+}
+
+.food-img img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.food-content {
+padding: 1.5rem;
+text-align: center;
+}
+
+.food-name {
+font-family: var(--Heading-Font);
+color: var(--Accent-Color);
+font-size: 1.6rem;
+margin-bottom: 0.5rem;
+}
+
+.line {
+width: 60px;
+height: 3px;
+background: var(--Accent-Color);
+margin: 0 auto 1rem;
+}
+
+.food-price {
+font-weight: 700;
+font-size: 1.4rem;
+color: var(--Accent-Color);
+margin-bottom: 1rem;
+}
+
+.rating {
+display: flex;
+list-style: none;
+justify-content: center;
+margin-bottom: 1rem;
+}
+
+.rating .fa-star {
+margin-right: 0.4rem;
+color: var(--Accent-Color);
+}
+
+.category {
+font-size: 1.1rem;
+font-weight: 700;
+color: var(--Accent-Color);
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 992px) {
+.menu-head p {
+width: 50%;
+}
+.food-items {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+column-gap: 2rem;
+}
+}
+
+@media screen and (max-width: 390px) {
+.menu-btn {
+justify-content: center;
+text-align: center;
+margin: 0 0.5rem;
+}
+}
+
+
+
+/* footer css code start*/
+
+footer {
+bottom: 0;
+width: 100%;
+
+}
+
+@media (max-height: 800px) {
+footer {
+position: static;
+}
+header {
+padding-top: 40px;
+}
+}
+.footer-container {
+background-color: #2d2a30;
+width: 100%;
+text-align: left;
+font: bold 16px sans-serif;
+padding: 50px 50px 50px 50px;
+margin-top: 80px;
+
+margin-bottom: auto;
+line-height: 42px;
+}
+
+.footer-container .footer-left, .footer-container .footer-center, .footer-container .footer-right {
+display: inline-block;
+vertical-align: top;
+
+
+}
+
+/* Footer left */
+.footer-container .footer-left {
+width: 30%;
+}
+
+.footer-container h3 {
+color: #ffffff;
+font: normal 36px "Cookie", cursive;
+margin: 0;
+}
+
+.footer-container h3 span {
+color: #e0ac1c;
+}
+
+/* Footer links */
+.footer-container .footer-links {
+color: #ffffff;
+margin: 20px 0 12px;
+}
+
+.footer-container .footer-links a {
+display: inline-block;
+line-height: 1.8;
+text-decoration: none;
+color: inherit;
+}
+
+.footer-container .footer-company-name {
+color: #8f9296;
+font-size: 14px;
+font-weight: normal;
+}
+
+/* Footer Center */
+.footer-container .footer-center {
+width: 35%;
+}
+
+.footer-container .footer-center i {
+background-color: #33383b;
+color: #ffffff;
+font-size: 25px;
+width: 38px;
+height: 38px;
+border-radius: 50%;
+text-align: center;
+line-height: 42px;
+margin: 15px 15px;
+vertical-align: middle;
+}
+
+.footer-container .footer-center i.fa-envelope {
+font-size: 17px;
+line-height: 38px;
+}
+
+.footer-container .footer-center p {
+display: inline-block;
+color: #ffffff;
+vertical-align: middle;
+margin: 0;
+}
+
+.footer-container .footer-center p span {
+display: block;
+font-weight: normal;
+font-size: 14px;
+line-height: 2;
+}
+
+.footer-container .footer-center p a {
+color: #e0ac1c;
+text-decoration: none;
+}
+
+/* Footer Right */
+.footer-container .footer-right {
+width: 30%;
+}
+
+.footer-container .footer-company-about {
+line-height: 20px;
+color: #92999f;
+font-size: 13px;
+font-weight: normal;
+margin: 0;
+}
+
+.footer-container .footer-company-about span {
+display: block;
+color: #ffffff;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.footer-container .footer-icons {
+margin-top: 25px;
+}
+
+.footer-container .footer-icons a {
+display: inline-block;
+width: 35px;
+height: 35px;
+cursor: pointer;
+background-color: #33383b;
+border-radius: 2px;
+font-size: 20px;
+color: #ffffff;
+text-align: center;
+line-height: 35px;
+margin-right: 3px;
+margin-bottom: 5px;
+}
+
+.footer-container .footer-icons a:hover {
+background-color: #717b93;
+}
+
+.footer-links a:hover {
+color: #717b93;
+}
+
+@media (max-width: 880px) {
+.footer-container .footer-left,
+.footer-container .footer-center,
+.footer-container .footer-right {
+display: block;
+width: 100%;
+margin-bottom: auto;
+text-align: center;
+}
+.footer-container .footer-center i,
+.footer-container .footer-icons a {
+margin: 0 auto; /* Centering the icons horizontally */
+display: block;
+}
+.footer-container .footer-center p {
+text-align: center; /* Centering the text */
+}
+.footer-container .footer-right a,  .footer-container .footer-right i {
+display:inline;
+margin-right: 10px;
+
+
+}
+}
+
+@media (min-width: 1920px) {
+.footer-container .footer-left {
+margin-bottom: auto;
+margin: 2rem;
+}
+}
+
+.footer-container .footer-center p {
+text-align: center; /* Centering the text */
+} /*# sourceMappingURL=style.css.map */
+/*end of css code for header, menu and footer*/
