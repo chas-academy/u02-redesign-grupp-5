@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  height: 100vh;
+  line-height: 1.5;
+  color: #838EA4;
+}
+
+.intro {
+  max-width: 80%;
+  margin: 3rem auto;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 3rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+h2 {
+  line-height: 1.2;
+}
+
+p {
+  color: #0A2463;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+address {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+e-mail {
+  color: goldenrod;
+}
+
+button {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  background-color: goldenrod;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 15px;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: aliceblue;
+  color: #0A2463;
+}
+
+.search-bar {
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.search-bar:hover {
+  background-color: goldenrod;
+  color: #0A2463;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(100px, 300px);
+  gap: 1rem;
+}/*# sourceMappingURL=main.css.map */
