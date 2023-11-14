@@ -89,7 +89,11 @@ h3 span {
 <<<<<<< HEAD
 /* Mobile navigation toggler styles*/
 =======
+<<<<<<< HEAD
+/* Mobile navigation toggler styles*/
+=======
 >>>>>>> 8e43faa106b9e00566cffb367a224388688a12c5
+>>>>>>> 3ee95f709efd1743cc8c75aacd4b44c103c8c19e
 .nav-toggler {
   position: relative;
   height: 34px;
@@ -228,6 +232,9 @@ p {
 }
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3ee95f709efd1743cc8c75aacd4b44c103c8c19e
 .logo a {
   font-family: "Dancing Script", cursive;
 }
@@ -673,7 +680,9 @@ footer {
   line-height: 42px;
 }
 
-.footer-container .footer-left, .footer-container .footer-center, .footer-container .footer-right {
+.footer-container .footer-left,
+.footer-container .footer-center,
+.footer-container .footer-right {
   display: inline-block;
   vertical-align: top;
 }
@@ -819,7 +828,8 @@ footer {
   .footer-container .footer-center p {
     text-align: center; /* Centering the text */
   }
-  .footer-container .footer-right a, .footer-container .footer-right i {
+  .footer-container .footer-right a,
+  .footer-container .footer-right i {
     display: inline;
     margin-right: 10px;
   }
