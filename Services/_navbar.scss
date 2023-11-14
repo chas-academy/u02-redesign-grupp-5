@@ -1,3 +1,11 @@
+<<<<<<< HEAD:Services/_navbar.scss
+
+:root {
+  --color-1: rgb(239, 238, 238);
+}
+
+=======
+>>>>>>> d23f829a233f677ac0a5b9034bbb83b2b794d1ca:Code/_navbar.scss
 a {
   text-decoration: none;
 }
@@ -38,7 +46,11 @@ ul {
 .header h3 {
   font: normal 2rem "Cookie", cursive;
 
+<<<<<<< HEAD:Services/_navbar.scss
+  color:$Accent-Color;
+=======
   color: $Accent-Color;
+>>>>>>> d23f829a233f677ac0a5b9034bbb83b2b794d1ca:Code/_navbar.scss
 }
 .header .logo,
 h3 span {
@@ -78,6 +90,11 @@ h3 span {
   opacity: 0;
   pointer-events: none;
 }
+<<<<<<< HEAD:Services/_navbar.scss
+
+/* Mobile navigation toggler styles*/
+=======
+>>>>>>> d23f829a233f677ac0a5b9034bbb83b2b794d1ca:Code/_navbar.scss
 .nav-toggler {
   position: relative;
   height: 34px;
