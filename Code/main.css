@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
-/* Reset and Common styles for all screen sizes */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+
+
 * {
   margin: 0;
   padding: 0;
@@ -32,9 +31,8 @@ h2 {
 }
 
 /* Media query for iPhone 12 pro (400px wide) and smaller screens */
-@media (max-width: 400px) {
+@media (max-width: 750px) {
   .intro {
-    padding-top: 3rem;
     padding-bottom: 1.75rem;
     line-height: 1.4;
     text-align: center;
@@ -53,9 +51,6 @@ h2 {
   ul li {
     display: block;
     margin-bottom: 10px;
-  }
-  li img {
-    border-radius: 50%;
   }
 }
 /*service page */
@@ -241,7 +236,9 @@ footer {
   line-height: 42px;
 }
 
-.footer-container .footer-left, .footer-container .footer-center, .footer-container .footer-right {
+.footer-container .footer-left,
+.footer-container .footer-center,
+.footer-container .footer-right {
   display: inline-block;
   vertical-align: top;
 }
@@ -387,7 +384,8 @@ footer {
   .footer-container .footer-center p {
     text-align: center; /* Centering the text */
   }
-  .footer-container .footer-right a, .footer-container .footer-right i {
+  .footer-container .footer-right a,
+  .footer-container .footer-right i {
     display: inline;
     margin-right: 10px;
   }
