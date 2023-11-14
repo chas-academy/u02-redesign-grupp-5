@@ -3,7 +3,8 @@
     padding: 0;
     /* font-family: tahoma, sans-serif; */
   }
-  @import "nav.css";
+  @import "../../Code/navbar";
+  @import "../../Code/footer"
   @import "../_design.scss";
 
   $color-background: #fffdf6;
@@ -225,4 +226,3 @@ $text-color: #292929;
       width: 27% !important;
     }
   }
-  @import "footer.css";

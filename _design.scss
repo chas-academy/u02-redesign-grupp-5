@@ -2,11 +2,17 @@ $color-background: #fffdf6;
 $color-beige: #e4cf84;
 $color-gold: #d5a848;
 $text-color: #292929;
+$Accent-Color: #ff9505;
+$main-font-family: "Montserrat", sans-serif;
+$heading-font-family: "Playfair Display", serif;
+$footer-font-color: #ffffff;
+
+
 
 * {
   padding: 0;
   margin: 0;
-  font-family: tahoma, sans-serif;
+  // font-family: tahoma, sans-serif;
 }
 
 h1 {
