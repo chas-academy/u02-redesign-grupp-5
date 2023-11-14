@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
 
+<<<<<<< HEAD
 :root {
   --color-1: rgb(239, 238, 238);
 }
+=======
+>>>>>>> 8e43faa106b9e00566cffb367a224388688a12c5
 
 a {
   text-decoration: none;
@@ -32,21 +33,35 @@ ul {
 }
 
 .header {
-  background-color: var(--color-1);
+  background-color:$color-background;
   padding: 12px 0;
   position: relative;
 }
 
 .header .logo,
 .header .nav {
-  padding: 0 20px;
+  padding: 0 15px;
   margin: auto;
 }
+.header h3 {
+  font: normal 2rem "Cookie", cursive;
 
+<<<<<<< HEAD
+=======
+  color:$Accent-Color;
+}
+.header .logo,
+h3 span {
+  color:$Accent-Color;
+  font: normal 2rem "Cookie", cursive;
+}
+
+>>>>>>> 8e43faa106b9e00566cffb367a224388688a12c5
 .header .logo a {
+  font: normal 36px "Cookie", cursive;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
-  color: rgb(230, 125, 45);
+  color:$Accent-Color;
   text-transform: capitalize;
 }
 
@@ -55,7 +70,6 @@ ul {
   margin-left: 40px;
 }
 
-/* Navigation link styles */
 .header .nav ul li a {
   display: block;
   font-size: 18px;
@@ -65,37 +79,74 @@ ul {
   transition: all 0.5s ease;
 }
 
-/* Navigation link hover and active styles */
 .header .nav ul li a:hover,
 .header .nav ul li a.active {
   color: black;
 }
 
-/* Checkbox input for mobile navigation */
 .header #nav-check {
   position: absolute;
   opacity: 0;
   pointer-events: none;
 }
+<<<<<<< HEAD
 
 /* Mobile navigation toggler styles*/
+=======
+>>>>>>> 8e43faa106b9e00566cffb367a224388688a12c5
 .nav-toggler {
+  position: relative;
   height: 34px;
   width: 44px;
   background-color: #a27f7f;
   border-radius: 4px;
   cursor: pointer;
-  display: none;
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; /* Center the lines horizontally */
   margin-right: 15px;
 }
 
 .nav-toggler span {
   display: block;
   height: 2px;
-  width: 20px;
-  background-color: var(--color-1);
+  width: 60%; /* Adjust the width of the lines as needed */
+  background-color:$color-background;
+  position: absolute;
+}
+
+.nav-toggler span::before,
+.nav-toggler span::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: inherit;
+  background-color:$color-background;
+}
+
+.nav-toggler span::before {
+  top: -6px;
+}
+
+.nav-toggler span::after {
+  bottom: -6px;
+}
+
+.nav-toggler {
+  height: 34px;
+  width: 44px;
+  background-color: #ba9494;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.nav-toggler span {
+  display: block;
+  height: 2px;
+  background-color:$color-background;
   position: relative;
 }
 
@@ -105,13 +156,23 @@ ul {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: var(--color-1);
+  background-color:$color-background;
+  left: 0;
 }
+
 .nav-toggler span::before {
   top: -6px;
 }
+
 .nav-toggler span::after {
   top: 6px;
+}
+
+.nav-toggler span {
+  display: block;
+  height: 2px;
+  background-color:$color-background;
+  position: relative;
 }
 
 @media (max-width: 991px) {
@@ -124,7 +185,7 @@ ul {
     left: 0;
     top: 100%;
     width: 100%;
-    background-color: var(--color-1);
+    background-color:$color-background;
     border-top: 1px solid rgba(210, 23, 23, 0.2);
     opacity: 0;
     visibility: hidden;
