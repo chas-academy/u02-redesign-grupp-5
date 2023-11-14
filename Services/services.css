@@ -86,10 +86,7 @@ h3 span {
   pointer-events: none;
 }
 
-<<<<<<< HEAD
 /* Mobile navigation toggler styles*/
-=======
->>>>>>> 8e43faa106b9e00566cffb367a224388688a12c5
 .nav-toggler {
   position: relative;
   height: 34px;
@@ -227,15 +224,12 @@ p {
   font-size: 1rem;
 }
 
-<<<<<<< HEAD
 .logo a {
   font-family: "Dancing Script", cursive;
 }
 
-=======
 /*end  */
 /* footer */
->>>>>>> 8e43faa106b9e00566cffb367a224388688a12c5
 footer {
   bottom: 0;
   width: 100%;
@@ -406,16 +400,13 @@ footer {
     margin: 0 auto; /* Centering the icons horizontally */
     display: block;
   }
-<<<<<<< HEAD
   .footer-container .footer-center p {
     text-align: center; /* Centering the text */
   }
   .footer-container .footer-right a,
   .footer-container .footer-right i {
-=======
   /*the change I made set the icons horizontally*/
   .footer-container .footer-right a, .footer-container .footer-right i {
->>>>>>> 8e43faa106b9e00566cffb367a224388688a12c5
     display: inline;
     margin-right: 10px;
   }
