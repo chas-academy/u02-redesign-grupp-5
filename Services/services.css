@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
 :root {
-  --color-1:rgb(239, 238, 238) ;
+  --color-1: rgb(239, 238, 238);
 }
 
 a {
@@ -79,7 +79,7 @@ ul {
   pointer-events: none;
 }
 
-/* Mobile navigation toggler styles */
+/* Mobile navigation toggler styles*/
 .nav-toggler {
   height: 34px;
   width: 44px;
@@ -119,7 +119,7 @@ ul {
 
 @media (max-width: 991px) {
   .nav-toggler {
-    display: flex; /* Show toggler button on smaller screens */
+    display: flex;
   }
   .header .nav {
     position: absolute;
@@ -174,10 +174,6 @@ p {
   font-size: 1rem;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
 .logo a {
   font-family: "Dancing Script", cursive;
 }
@@ -206,7 +202,9 @@ footer {
   line-height: 42px;
 }
 
-.footer-container .footer-left, .footer-container .footer-center, .footer-container .footer-right {
+.footer-container .footer-left,
+.footer-container .footer-center,
+.footer-container .footer-right {
   display: inline-block;
   vertical-align: top;
 }
@@ -352,7 +350,8 @@ footer {
   .footer-container .footer-center p {
     text-align: center; /* Centering the text */
   }
-  .footer-container .footer-right a, .footer-container .footer-right i {
+  .footer-container .footer-right a,
+  .footer-container .footer-right i {
     display: inline;
     margin-right: 10px;
   }
