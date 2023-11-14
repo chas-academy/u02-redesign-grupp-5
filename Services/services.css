@@ -825,7 +825,9 @@ footer {
   line-height: 42px;
 }
 
-.footer-container .footer-left, .footer-container .footer-center, .footer-container .footer-right {
+.footer-container .footer-left,
+.footer-container .footer-center,
+.footer-container .footer-right {
   display: inline-block;
   vertical-align: top;
 }
@@ -971,7 +973,8 @@ footer {
   .footer-container .footer-center p {
     text-align: center; /* Centering the text */
   }
-  .footer-container .footer-right a, .footer-container .footer-right i {
+  .footer-container .footer-right a,
+  .footer-container .footer-right i {
     display: inline;
     margin-right: 10px;
   }
