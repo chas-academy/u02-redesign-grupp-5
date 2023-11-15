@@ -1,12 +1,11 @@
 @import "../_design.scss";
-@import "../Code/navbar.scss";
+@import "../Services/navbar";
 @import "../Code/footer.scss";
 @import "../Code/main.scss";
 
 * {
   padding: 0;
   margin: 0;
-  // font-family: tahoma, sans-serif;
 }
 body {
   background-color: $color-background !important;
