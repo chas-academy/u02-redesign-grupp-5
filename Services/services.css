@@ -332,6 +332,23 @@ h3 span {
   bottom: -6px;
 }
 
+.nav-toggler {
+  height: 34px;
+  width: 44px;
+  background-color: #ba9494;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.nav-toggler span {
+  display: block;
+  height: 2px;
+  background-color: #fffdf6;
+  position: relative;
+}
 
 .nav-toggler span::before,
 .nav-toggler span::after {
