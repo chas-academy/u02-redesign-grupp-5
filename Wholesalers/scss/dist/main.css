@@ -58,7 +58,7 @@ html {
 
 body {
   font-family: "Thahoma", sans-serif;
-  background-color: #fffdf6;
+  background-color: #f5f5f5;
   color: #292929;
   height: 100vh;
   line-height: 1.5;
@@ -144,7 +144,7 @@ img {
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: #fffef6;
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
