@@ -1,15 +1,60 @@
-
-
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
-
+/* Reset and Common styles for all screen sizes */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-
 }
+
+body {
+  font-family: "minion-pro", Georgia, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background: #ffffff;
+  color: #666666;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Media query for iPhone 12 pro (400px wide) and smaller screens */
+@media (max-width: 750px) {
+  .intro {
+    padding-bottom: 1.75rem;
+    line-height: 1.4;
+    text-align: center;
+    color: #717171;
+    background: #f6f6f6;
+  }
+  h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  ul {
+    text-align: center;
+    text-decoration: none;
+  }
+  ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+/*service page */
 :root {
   --Main-Font: "Montserrat", sans-serif;
   --Heading-Font: "Playfair Display", serif;
@@ -98,7 +143,8 @@ body {
 .food-img img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .food-content {
@@ -155,10 +201,10 @@ body {
   .food-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
   }
 }
-
 @media screen and (max-width: 390px) {
   .menu-btn {
     justify-content: center;
@@ -166,15 +212,10 @@ body {
     margin: 0 0.5rem;
   }
 }
-
-
-
-/* footer */
-
+/*footer*/
 footer {
   bottom: 0;
   width: 100%;
-  
 }
 
 @media (max-height: 800px) {
@@ -192,16 +233,15 @@ footer {
   font: bold 16px sans-serif;
   padding: 50px 50px 50px 50px;
   margin-top: 80px;
- 
   margin-bottom: auto;
   line-height: 42px;
 }
 
-.footer-container .footer-left, .footer-container .footer-center, .footer-container .footer-right {
+.footer-container .footer-left,
+.footer-container .footer-center,
+.footer-container .footer-right {
   display: inline-block;
   vertical-align: top;
- 
-
 }
 
 /* Footer left */
@@ -216,7 +256,7 @@ footer {
 }
 
 .footer-container h3 span {
-  color: #e0ac1c; 
+  color: #e0ac1c;
 }
 
 /* Footer links */
@@ -345,15 +385,192 @@ footer {
   .footer-container .footer-center p {
     text-align: center; /* Centering the text */
   }
+  .footer-container .footer-right a,
+  .footer-container .footer-right i {
+    display: inline;
+    margin-right: 10px;
+  }
 }
-
 @media (min-width: 1920px) {
   .footer-container .footer-left {
     margin-bottom: auto;
     margin: 2rem;
   }
 }
-
 .footer-container .footer-center p {
   text-align: center; /* Centering the text */
-} /*# sourceMappingURL=style.css.map */
+}
+
+:root {
+  --color-1: rgb(239, 238, 238);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.header {
+  background-color: var(--color-1);
+  padding: 12px 0;
+  position: relative;
+}
+
+.header .logo,
+.header .nav {
+  padding: 0 15px;
+  margin: auto;
+}
+
+.header .logo a {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  color: rgb(230, 125, 45);
+  text-transform: capitalize;
+}
+
+.header .nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.header .nav ul li a {
+  display: block;
+  font-size: 18px;
+  padding: 10px 0;
+  color: black;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+}
+
+.header .nav ul li a:hover,
+.header .nav ul li a.active {
+  color: black;
+}
+
+.header #nav-check {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav-toggler {
+  height: 34px;
+  width: 44px;
+  background-color: #a27f7f;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.nav-toggler span {
+  display: block;
+  height: 2px;
+  background-color: var(--color-1);
+  position: relative;
+}
+
+.nav-toggler span::before,
+.nav-toggler span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-1);
+  left: 0;
+}
+
+.nav-toggler span::before {
+  top: -6px;
+}
+
+.nav-toggler span::after {
+  top: 6px;
+}
+
+@media (max-width: 991px) {
+  .nav-toggler {
+    display: flex;
+  }
+  .header .nav {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background-color: var(--color-1);
+    border-top: 1px solid rgba(210, 23, 23, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  .header .nav ul li {
+    display: block;
+    margin: 0;
+  }
+  .header #nav-check:checked ~ .nav {
+    opacity: 1;
+    visibility: visible;
+  }
+  .header #nav-check:focus ~ .nav-toggler {
+    box-shadow: 0 0 15px #000000;
+  }
+  .header #nav-check:checked ~ .nav-toggler span {
+    background-color: transparent;
+  }
+  .header #nav-check:checked ~ .nav-toggler span::before,
+  .header #nav-check:checked ~ .nav-toggler span::after {
+    top: 0;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+  }
+  .header #nav-check:checked ~ .nav-toggler span::after {
+    transform: rotate(-45deg);
+  }
+}
+@media screen and (max-width: 991px) and (max-width: 750px) {
+  .event-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  li img {
+    border-radius: 50%;
+  }
+  .figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.event-list {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+li img {
+  border-radius: 50%;
+  margin: 20px 0 20px 0;
+}/*# sourceMappingURL=main.css.map */

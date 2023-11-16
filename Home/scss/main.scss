@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+
 /* Reset and Common styles for all screen sizes */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "minion-pro", Georgia, serif;
   margin: 0;
@@ -18,19 +17,17 @@ body {
   background: #ffffff;
   color: #666666;
 }
-
 main {
   padding: 20px;
 }
-
-article {
+section {
   margin-bottom: 20px;
 }
+
 
 h2 {
   text-align: center;
 }
-
 /* Media query for iPhone 12 pro (400px wide) and smaller screens */
 @media (max-width: 750px) {
   .intro {
@@ -40,21 +37,28 @@ h2 {
     color: #717171;
     background: #f6f6f6;
   }
+
   h2 {
     text-align: center;
     font-size: 1.3rem;
     line-height: 1.5;
   }
+
   ul {
     text-align: center;
     text-decoration: none;
   }
+
   ul li {
     display: block;
     margin-bottom: 10px;
   }
 }
 /*service page */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+
 :root {
   --Main-Font: "Montserrat", sans-serif;
   --Heading-Font: "Playfair Display", serif;
@@ -143,8 +147,7 @@ body {
 .food-img img {
   width: 100%;
   height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .food-content {
@@ -201,10 +204,10 @@ body {
   .food-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    -moz-column-gap: 2rem;
-         column-gap: 2rem;
+    column-gap: 2rem;
   }
 }
+
 @media screen and (max-width: 390px) {
   .menu-btn {
     justify-content: center;
@@ -212,7 +215,9 @@ body {
     margin: 0 0.5rem;
   }
 }
+
 /*footer*/
+
 footer {
   bottom: 0;
   width: 100%;
@@ -233,6 +238,7 @@ footer {
   font: bold 16px sans-serif;
   padding: 50px 50px 50px 50px;
   margin-top: 80px;
+
   margin-bottom: auto;
   line-height: 42px;
 }
@@ -391,12 +397,14 @@ footer {
     margin-right: 10px;
   }
 }
+
 @media (min-width: 1920px) {
   .footer-container .footer-left {
     margin-bottom: auto;
     margin: 2rem;
   }
 }
+
 .footer-container .footer-center p {
   text-align: center; /* Centering the text */
 }
@@ -479,6 +487,7 @@ ul {
   height: 34px;
   width: 44px;
   background-color: #a27f7f;
+
   border-radius: 4px;
   cursor: pointer;
   display: none;
@@ -502,11 +511,9 @@ ul {
   background-color: var(--color-1);
   left: 0;
 }
-
 .nav-toggler span::before {
   top: -6px;
 }
-
 .nav-toggler span::after {
   top: 6px;
 }
@@ -515,6 +522,7 @@ ul {
   .nav-toggler {
     display: flex;
   }
+
   .header .nav {
     position: absolute;
     left: 0;
@@ -526,42 +534,49 @@ ul {
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
   }
+
   .header .nav ul li {
     display: block;
     margin: 0;
   }
+
   .header #nav-check:checked ~ .nav {
     opacity: 1;
     visibility: visible;
   }
+
   .header #nav-check:focus ~ .nav-toggler {
     box-shadow: 0 0 15px #000000;
   }
+
   .header #nav-check:checked ~ .nav-toggler span {
     background-color: transparent;
   }
+
   .header #nav-check:checked ~ .nav-toggler span::before,
   .header #nav-check:checked ~ .nav-toggler span::after {
     top: 0;
     transform: rotate(45deg);
     transition: transform 0.3s ease;
   }
+
   .header #nav-check:checked ~ .nav-toggler span::after {
     transform: rotate(-45deg);
   }
-}
-@media screen and (max-width: 991px) and (max-width: 750px) {
-  .event-list {
-    flex-direction: column;
-    align-items: center;
-  }
-  li img {
-    border-radius: 50%;
-  }
-  .figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+  @media screen and (max-width: 750px) {
+    .event-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    li img {
+      border-radius: 50%;
+    }
+    .figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
 .event-list {
@@ -573,4 +588,4 @@ ul {
 li img {
   border-radius: 50%;
   margin: 20px 0 20px 0;
-}/*# sourceMappingURL=main.css.map */
+}

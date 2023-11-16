@@ -1,12 +1,15 @@
 @import "../_design.scss";
-@import "../Services/navbar";
-@import "../Services/footer";
+@import "../Code/navbar.scss";
+@import "../Code/footer.scss";
+@import "../Code/main.scss";
 
 * {
   padding: 0;
   margin: 0;
-  font-family: tahoma, sans-serif;
-  background-color: $color-background;
+  // font-family: tahoma, sans-serif;
+}
+body {
+  background-color: $color-background !important;
 }
 
 .smullbox-content {
@@ -34,6 +37,9 @@
 .header-text {
   padding: 10px;
   margin: 40px;
+}
+.logo-color {
+  background-color: rgb(239, 238, 238);
 }
 
 .span-color {

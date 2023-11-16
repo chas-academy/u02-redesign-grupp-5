@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Thahoma', sans-serif;
+  background-color: $bg-color;
+  color: $secondary-color;
+  height: 100vh;
+  line-height: 1.5;
+}
+h1 {
+  color: $primary-color;
+  font-size: 3rem;
+  line-height: 1.4;
+  text-align: center; 
+}
+h3 {
+  color: $secondary-color;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2; 
+}
+p {
+  color: $secondary-color;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+label {
+  color: $primary-color;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  padding-left: 0.5rem;
+} 
+address {
+  font-style: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+e-mail {
+  display: block;
+} 
