@@ -77,9 +77,6 @@ It'd be good if someone could take care of:
 
 *Let's finish everything we need to do for the homepage today. If everyone helps a little, it will be very helpful!*
 
-
-**Handledning 13:00 today** *Everybody make a list of what they think is priority and we need help with.*
-
 Nejat contributions for homepage since yesterday:
 
 - Added two articles. Duplicated a section with an image for improved structure. Summarized the first paragraph.
@@ -93,6 +90,18 @@ Mikael: Fixed scss problems.
 Khaled: Finished contact and news.
 
 Matewos: imported the design to main and almost finished with member page
+
+**Handledning 13:00 today** *Everybody make a list of what they think is priority and we need help with.* :
+
+- Fix the import problem and scss problems and why there is doublettes and how to aoid them. 
+- We get som clear advice about how to prioritize.
+- Go through how to get better lighthouse score. 
+  - Specify img size in VS, or change size before using in VS? 
+    - Matewos fix the imgage size.
+- Render-blocking, some code who is not render in best way.
+- Need to insert ALT text for screenreaders, go through accessability. Add darker color text.
+- Split folder with contact and new to two folders.
+  Matewos fixes that.
 
 ## Meeting thursday 16 oct 10:00
 

@@ -1,7 +1,8 @@
 
-@import "../design";
-@import "../Code/footer";
-@import "../Services/navbar";
+@import '../../Home/scss/design';
+@import '../../Home/scss/navbar';
+@import '../../Home/scss/footer';
+
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
@@ -11,7 +12,6 @@
   --Heading-Font: "Playfair Display", serif;
   
 }
-
 body {
   line-height: 1.6;
   font-family:$main-font-family;
