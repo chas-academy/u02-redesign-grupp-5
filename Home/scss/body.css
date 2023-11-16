@@ -73,8 +73,7 @@ figcaption {
 .landing-page > a:visited {
   color: #292929;
 }
-.landing-page > a:hover,
-.landing-page > a a:focus {
+.landing-page > a:hover, .landing-page > a a:focus {
   background-color: #d5a848;
   color: #292929;
   cursor: pointer;

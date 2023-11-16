@@ -1,4 +1,11 @@
-
+$main-font-family: "Montserrat", sans-serif;
+$heading-font-family: "Playfair Display", serif;
+$color-background: #f9f9f9;
+$color-beige: #e4cf84;
+$color-gold: #d5a848;
+$text-color: #292929;
+$Accent-Color: #ff9505;
+$footer-font-color: #ffffff;
 :root {
   --color-1: rgb(239, 238, 238);
 }
@@ -41,10 +48,6 @@ ul {
 }
 .header h3 {
   font: normal 2rem "Cookie", cursive;
-<<<<<<< HEAD
-=======
-
->>>>>>> 263fab57b6331bded5a215d557d6148b455cd926
   color: $Accent-Color;
 }
 .header .logo,

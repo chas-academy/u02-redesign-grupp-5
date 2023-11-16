@@ -109,18 +109,6 @@ figcaption {
   }
 }
 
-h1 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1rem;
-}
-
-p {
-  font-size: 1rem;
-}
-
 :root {
   --color-1: rgb(239, 238, 238);
 }
