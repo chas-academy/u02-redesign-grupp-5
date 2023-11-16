@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -28,7 +30,6 @@ ul {
 }
 
 .container {
-  max-width: 100%;
   margin: auto;
 }
 
@@ -96,7 +97,7 @@ h3 span {
 }
 
 .header #nav-check {
-  position: absolute;
+  position: relative;
   opacity: 0;
   pointer-events: none;
 }
@@ -113,6 +114,7 @@ h3 span {
   align-items: center;
   justify-content: center; /* Center the lines horizontally */
   margin-right: 15px;
+  padding: auto;
 }
 
 .nav-toggler span {
@@ -120,50 +122,15 @@ h3 span {
   height: 2px;
   width: 60%; /* Adjust the width of the lines as needed */
   background-color: #fffdf6;
-  position: absolute;
-}
-
-.nav-toggler span::before,
-.nav-toggler span::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: inherit;
-  background-color: #fffdf6;
-}
-
-.nav-toggler span::before {
-  top: -6px;
-}
-
-.nav-toggler span::after {
-  bottom: -6px;
-}
-
-.nav-toggler {
-  height: 34px;
-  width: 44px;
-  background-color: #ba9494;
-  border-radius: 4px;
-  cursor: pointer;
-  display: none;
-  align-items: center;
-  margin-right: 15px;
-}
-
-.nav-toggler span {
-  display: block;
-  height: 2px;
-  background-color: #fffdf6;
   position: relative;
 }
 
 .nav-toggler span::before,
 .nav-toggler span::after {
   content: "";
-  position: absolute;
-  width: 100%;
+  position: relative;
   height: 100%;
+  width: inherit;
   background-color: #fffdf6;
   left: 0;
 }
@@ -173,14 +140,7 @@ h3 span {
 }
 
 .nav-toggler span::after {
-  top: 6px;
-}
-
-.nav-toggler span {
-  display: block;
-  height: 2px;
-  background-color: #fffdf6;
-  position: relative;
+  bottom: -6px;
 }
 
 @media (max-width: 991px) {
@@ -201,6 +161,8 @@ h3 span {
   .header .nav ul li {
     display: block;
     margin: 0;
+    text-align: center;
+    justify-content: center;
   }
   .header #nav-check:checked ~ .nav {
     opacity: 1;
