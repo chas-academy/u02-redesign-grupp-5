@@ -201,6 +201,7 @@ h3 span {
   .header .nav ul li {
     display: block;
     margin: 0;
+    text-align: center;
   }
   .header #nav-check:checked ~ .nav {
     opacity: 1;
