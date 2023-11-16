@@ -1,4 +1,15 @@
-@import './design';
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
 :root {
   --color-1: rgb(239, 238, 238);
 }
@@ -30,7 +41,7 @@ ul {
 }
 
 .header {
-  background-color: $color-background;
+  background-color: #f9f9f9;
   padding: 12px 0;
   position: relative;
 }
@@ -40,15 +51,15 @@ ul {
   padding: 0 15px;
   margin: auto;
 }
+
 .header h3 {
   font: normal 2rem "Cookie", cursive;
-
-  color:$Accent-Color;
-  
+  color: #ff9505;
 }
+
 .header .logo,
 h3 span {
-  color: $Accent-Color;
+  color: #ff9505;
   font: normal 2rem "Cookie", cursive;
 }
 
@@ -56,7 +67,7 @@ h3 span {
   font: normal 36px "Cookie", cursive;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
-  color: $Accent-Color;
+  color: #ff9505;
   text-transform: capitalize;
 }
 
@@ -95,15 +106,17 @@ h3 span {
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center; /* Center the lines horizontally */
+  justify-content: center;
+  /* Center the lines horizontally */
   margin-right: 15px;
 }
 
 .nav-toggler span {
   display: block;
   height: 2px;
-  width: 60%; /* Adjust the width of the lines as needed */
-  background-color: $color-background;
+  width: 60%;
+  /* Adjust the width of the lines as needed */
+  background-color: #f9f9f9;
   position: absolute;
 }
 
@@ -113,7 +126,7 @@ h3 span {
   position: absolute;
   height: 100%;
   width: inherit;
-  background-color: $color-background;
+  background-color: #f9f9f9;
 }
 
 .nav-toggler span::before {
@@ -138,7 +151,7 @@ h3 span {
 .nav-toggler span {
   display: block;
   height: 2px;
-  background-color: $color-background;
+  background-color: #f9f9f9;
   position: relative;
 }
 
@@ -148,7 +161,7 @@ h3 span {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: $color-background;
+  background-color: #f9f9f9;
   left: 0;
 }
 
@@ -163,7 +176,7 @@ h3 span {
 .nav-toggler span {
   display: block;
   height: 2px;
-  background-color: $color-background;
+  background-color: #f9f9f9;
   position: relative;
 }
 
@@ -177,7 +190,7 @@ h3 span {
     left: 0;
     top: 100%;
     width: 100%;
-    background-color: $color-background;
+    background-color: #f9f9f9;
     border-top: 1px solid rgba(210, 23, 23, 0.2);
     opacity: 0;
     visibility: hidden;
@@ -204,7 +217,7 @@ h3 span {
   }
 
   .header #nav-check:checked ~ .nav-toggler span::before,
-  .header #nav-check:checked ~ .nav-toggler span::after {
+.header #nav-check:checked ~ .nav-toggler span::after {
     top: 0;
     transform: rotate(45deg);
     transition: transform 0.3s ease;

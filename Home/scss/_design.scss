@@ -1,19 +1,11 @@
-$color-background: #fffdf6;
+$main-font-family: "Montserrat", sans-serif;
+$heading-font-family: "Playfair Display", serif;
+$color-background: #f9f9f9;
 $color-beige: #e4cf84;
 $color-gold: #d5a848;
 $text-color: #292929;
 $Accent-Color: #ff9505;
-$main-font-family: "Montserrat", sans-serif;
-$heading-font-family: "Playfair Display", serif;
 $footer-font-color: #ffffff;
-
-
-
-* {
-  padding: 0;
-  margin: 0;
-  // font-family: tahoma, sans-serif;
-}
 
 h1 {
   font-size: 2rem;
