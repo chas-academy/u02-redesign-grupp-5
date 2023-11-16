@@ -12,4 +12,6 @@
 
 [Sprint 4 documentation](4SprintFour.md)
 
+[Project Board GitHub](https://github.com/orgs/chas-academy/projects/51/views/1)
+
 [Figma Design](https://www.figma.com/file/6L9XDujago4WoiYeGsBtY3/Redesign-u02?type=design&node-id=0%3A1&mode=design&t=OOyLAPjJOloOwCxW-1)

@@ -1,6 +1,13 @@
-* {
-  padding: 0;
-  margin: 0;
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
 h1 {
@@ -46,7 +53,7 @@ ul {
 }
 
 .header {
-  background-color: #fffdf6;
+  background-color: #f9f9f9;
   padding: 12px 0;
   position: relative;
 }
@@ -121,7 +128,7 @@ h3 span {
   height: 2px;
   width: 60%;
   /* Adjust the width of the lines as needed */
-  background-color: #fffdf6;
+  background-color: #f9f9f9;
   position: absolute;
 }
 
@@ -131,7 +138,7 @@ h3 span {
   position: absolute;
   height: 100%;
   width: inherit;
-  background-color: #fffdf6;
+  background-color: #f9f9f9;
 }
 
 .nav-toggler span::before {
@@ -156,8 +163,9 @@ h3 span {
 .nav-toggler span {
   display: block;
   height: 2px;
-  background-color: #fffdf6;
+  background-color: #f9f9f9;
   position: relative;
+  text-align: center;
 }
 
 .nav-toggler span::before,
@@ -166,7 +174,7 @@ h3 span {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #fffdf6;
+  background-color: #f9f9f9;
   left: 0;
 }
 
@@ -181,7 +189,7 @@ h3 span {
 .nav-toggler span {
   display: block;
   height: 2px;
-  background-color: #fffdf6;
+  background-color: #f9f9f9;
   position: relative;
 }
 
@@ -195,7 +203,7 @@ h3 span {
     left: 0;
     top: 100%;
     width: 100%;
-    background-color: #fffdf6;
+    background-color: #f9f9f9;
     border-top: 1px solid rgba(210, 23, 23, 0.2);
     opacity: 0;
     visibility: hidden;
@@ -205,6 +213,7 @@ h3 span {
   .header .nav ul li {
     display: block;
     margin: 0;
+    text-align: center;
   }
 
   .header #nav-check:checked ~ .nav {
@@ -231,144 +240,16 @@ h3 span {
     transform: rotate(-45deg);
   }
 }
-button {
-  font-size: 1.2rem;
-  color: whitesmoke;
-  background-color: #d5a848;
-  border-radius: 10px;
-  padding: 10px 25px;
-  margin: 15px;
-  transition: box-shadow 0.15s;
-  cursor: pointer;
-}
-button:hover {
-  background-color: aliceblue;
-  color: #292929;
-}
-
-.wholesales a {
-  color: #d5a848;
-  text-decoration: none;
-  font-size: 1.2rem;
-  border-radius: 5px;
-}
-.wholesales a:visited {
-  color: #292929;
-}
-.wholesales a:hover, .wholesales a a:focus {
-  background-color: #d5a848;
-  color: #292929;
-  cursor: pointer;
-}
-.wholesales a:active {
-  color: #e4cf84;
-}
-
-.search-bar {
-  font-size: 1rem;
-  margin: 0.5rem;
-  padding: 0.5rem;
-  vertical-align: middle;
-  border-radius: 5px;
-}
-.search-bar:hover {
-  background-color: #d5a848;
-  color: #292929;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font: inherit;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Thahoma", sans-serif;
-  background-color: #fffdf6;
-  color: #292929;
-  height: 100vh;
-  line-height: 1.5;
-}
-
 h1 {
-  color: #d5a848;
-  font-size: 3rem;
-  line-height: 1.4;
-  text-align: center;
+  font-size: 2rem;
 }
 
 h3 {
-  color: #292929;
-  font-size: 1.5rem;
-  font-weight: bold;
-  line-height: 1.2;
+  font-size: 1rem;
 }
 
 p {
-  color: #292929;
-  font-size: 1.5rem;
-  margin: 1rem;
-}
-
-label {
-  color: #d5a848;
-  font-size: 1.5rem;
-  font-weight: bold;
-  display: block;
-  padding-left: 0.5rem;
-}
-
-address {
-  font-style: none;
   font-size: 1rem;
-  font-weight: bold;
-}
-
-e-mail {
-  display: block;
-}
-
-img {
-  diplay: block;
-  max-width: 80%;
-  margin-bottom: 3rem;
-}
-
-.intro {
-  max-width: 80%;
-  text-align: center;
-  margin: 3rem auto;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 2rem 3rem;
-  text-align: center;
-  gap: 2rem;
-}
-@media screen and (min-width: 400px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-  }
-}
-@media (min-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-  }
-}
-@media (min-width: 1200px) {
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
-  }
 }
 
 footer {
@@ -435,6 +316,7 @@ footer {
 .footer-container .footer-company-name {
   color: #8f9296;
   font-size: 14px;
+  text-align: center;
   font-weight: normal;
 }
 
@@ -568,3 +450,150 @@ footer {
 }
 
 /*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Thahoma", sans-serif;
+  background-color: #f9f9f9;
+  color: #292929;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #d5a848;
+  font-size: 3rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+h3 {
+  color: #292929;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+p {
+  color: #292929;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+label {
+  color: #d5a848;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  padding-left: 0.5rem;
+}
+
+address {
+  font-style: none;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+e-mail {
+  display: block;
+}
+
+img {
+  diplay: block;
+  max-width: 80%;
+  margin-bottom: 3rem;
+}
+
+.intro {
+  max-width: 80%;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.grid > article {
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 2rem 3rem;
+  text-align: center;
+  gap: 2rem;
+}
+@media screen and (min-width: 400px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+  }
+}
+
+button {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  background-color: #d5a848;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 15px;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: aliceblue;
+  color: #292929;
+}
+
+.grid a {
+  color: #d5a848;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.grid a:visited {
+  color: #292929;
+}
+.grid a:hover, .grid a a:focus {
+  background-color: #d5a848;
+  color: #292929;
+  cursor: pointer;
+}
+.grid a:active {
+  color: #e4cf84;
+}
+
+.search-bar {
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.search-bar:hover {
+  background-color: #d5a848;
+  color: #292929;
+}

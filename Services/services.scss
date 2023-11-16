@@ -1,8 +1,10 @@
 
-@import '../../Home/scss/design';
-@import '../../Home/scss/navbar';
-@import '../../Home/scss/footer';
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+@import '../Home/scss/design';
+@import '../Home/scss/navbar';
+@import '../Home/scss/footer';
+
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
 
 
@@ -47,7 +49,7 @@ body {
 .menu-head h2 {
   font-family:$heading-font-family;
   font-size: 2.8rem;
-  color:$Accent-Color;
+  color: $Accent-Color;
   margin-bottom: 0.5rem;
 }
 

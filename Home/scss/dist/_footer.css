@@ -1,4 +1,15 @@
-/* footer css code start*/
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
 footer {
   bottom: 0;
   width: 100%;
@@ -8,6 +19,7 @@ footer {
   footer {
     position: static;
   }
+
   header {
     padding-top: 40px;
   }
@@ -23,7 +35,9 @@ footer {
   line-height: 42px;
 }
 
-.footer-container .footer-left, .footer-container .footer-center, .footer-container .footer-right {
+.footer-container .footer-left,
+.footer-container .footer-center,
+.footer-container .footer-right {
   display: inline-block;
   vertical-align: top;
 }
@@ -40,7 +54,8 @@ footer {
 }
 
 .footer-container h3 span {
-  color: #e0ac1c;
+  color: #ff9505;
+  font: normal 36px "Cookie", cursive;
 }
 
 /* Footer links */
@@ -59,6 +74,7 @@ footer {
 .footer-container .footer-company-name {
   color: #8f9296;
   font-size: 14px;
+  text-align: center;
   font-weight: normal;
 }
 
@@ -100,7 +116,7 @@ footer {
 }
 
 .footer-container .footer-center p a {
-  color: #e0ac1c;
+  color: #ff9505;
   text-decoration: none;
 }
 
@@ -154,26 +170,33 @@ footer {
 
 @media (max-width: 880px) {
   .footer-container .footer-left,
-  .footer-container .footer-center,
-  .footer-container .footer-right {
+.footer-container .footer-center,
+.footer-container .footer-right {
     display: block;
     width: 100%;
     margin-bottom: auto;
     text-align: center;
   }
+
   .footer-container .footer-center i,
-  .footer-container .footer-icons a {
-    margin: 0 auto; /* Centering the icons horizontally */
+.footer-container .footer-icons a {
+    margin: 0 auto;
+    /* Centering the icons horizontally */
     display: block;
   }
-  .footer-container .footer-center p {
-    text-align: center; /* Centering the text */
-  }
-  .footer-container .footer-right a, .footer-container .footer-right i {
+
+  /*the change I made set the icons horizontally*/
+  .footer-container .footer-right a,
+.footer-container .footer-right i {
     display: inline;
     margin-right: 10px;
   }
 }
+.footer-container .footer-center p {
+  text-align: center;
+  /* Centering the text */
+}
+
 @media (min-width: 1920px) {
   .footer-container .footer-left {
     margin-bottom: auto;
@@ -181,6 +204,7 @@ footer {
   }
 }
 .footer-container .footer-center p {
-  text-align: center; /* Centering the text */
-} 
-/*end of css code for header, menu and footer*//*# sourceMappingURL=footer.css.map */
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,5 +1,114 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9f9f9;
+  height: 100vh;
+  color: #292929;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 90%;
+  margin: 1rem auto;
+}
+
+.hero {
+  margin: 0.5rem auto;
+}
+
+h1 {
+  color: #d5a848;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #292929;
+  padding: 1rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+figcaption {
+  color: #d5a848;
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.landing-page > a {
+  color: #d5a848;
+  margin: 2rem 4rem;
+}
+.landing-page > a:visited {
+  color: #292929;
+}
+.landing-page > a:hover, .landing-page > a a:focus {
+  background-color: #d5a848;
+  color: #292929;
+  cursor: pointer;
+}
+.landing-page > a:active {
+  color: #e4cf84;
+}
+
+.event {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .event {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
 h1 {
   font-size: 2rem;
 }
@@ -25,6 +134,7 @@ ul {
 }
 
 .container {
+  max-width: 100%;
   margin: auto;
 }
 
@@ -92,7 +202,7 @@ h3 span {
 }
 
 .header #nav-check {
-  position: relative;
+  position: absolute;
   opacity: 0;
   pointer-events: none;
 }
@@ -107,27 +217,27 @@ h3 span {
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center; /* Center the lines horizontally */
+  justify-content: center;
+  /* Center the lines horizontally */
   margin-right: 15px;
-  padding: auto;
 }
 
 .nav-toggler span {
   display: block;
   height: 2px;
-  width: 60%; /* Adjust the width of the lines as needed */
+  width: 60%;
+  /* Adjust the width of the lines as needed */
   background-color: #f9f9f9;
-  position: relative;
+  position: absolute;
 }
 
 .nav-toggler span::before,
 .nav-toggler span::after {
   content: "";
-  position: relative;
+  position: absolute;
   height: 100%;
   width: inherit;
   background-color: #f9f9f9;
-  left: 0;
 }
 
 .nav-toggler span::before {
@@ -138,10 +248,54 @@ h3 span {
   bottom: -6px;
 }
 
+.nav-toggler {
+  height: 34px;
+  width: 44px;
+  background-color: #ba9494;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.nav-toggler span {
+  display: block;
+  height: 2px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.nav-toggler span::before,
+.nav-toggler span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+  left: 0;
+}
+
+.nav-toggler span::before {
+  top: -6px;
+}
+
+.nav-toggler span::after {
+  top: 6px;
+}
+
+.nav-toggler span {
+  display: block;
+  height: 2px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
 @media (max-width: 991px) {
   .nav-toggler {
     display: flex;
   }
+
   .header .nav {
     position: absolute;
     left: 0;
@@ -153,26 +307,33 @@ h3 span {
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
   }
+
   .header .nav ul li {
     display: block;
     margin: 0;
+    text-align: center;
   }
+
   .header #nav-check:checked ~ .nav {
     opacity: 1;
     visibility: visible;
   }
+
   .header #nav-check:focus ~ .nav-toggler {
     box-shadow: 0 0 15px #000000;
   }
+
   .header #nav-check:checked ~ .nav-toggler span {
     background-color: transparent;
   }
+
   .header #nav-check:checked ~ .nav-toggler span::before,
-  .header #nav-check:checked ~ .nav-toggler span::after {
+.header #nav-check:checked ~ .nav-toggler span::after {
     top: 0;
     transform: rotate(45deg);
     transition: transform 0.3s ease;
   }
+
   .header #nav-check:checked ~ .nav-toggler span::after {
     transform: rotate(-45deg);
   }
@@ -198,6 +359,7 @@ footer {
   footer {
     position: static;
   }
+
   header {
     padding-top: 40px;
   }
@@ -348,27 +510,31 @@ footer {
 
 @media (max-width: 880px) {
   .footer-container .footer-left,
-  .footer-container .footer-center,
-  .footer-container .footer-right {
+.footer-container .footer-center,
+.footer-container .footer-right {
     display: block;
     width: 100%;
     margin-bottom: auto;
     text-align: center;
   }
+
   .footer-container .footer-center i,
-  .footer-container .footer-icons a {
-    margin: 0 auto; /* Centering the icons horizontally */
+.footer-container .footer-icons a {
+    margin: 0 auto;
+    /* Centering the icons horizontally */
     display: block;
   }
+
   /*the change I made set the icons horizontally*/
   .footer-container .footer-right a,
-  .footer-container .footer-right i {
+.footer-container .footer-right i {
     display: inline;
     margin-right: 10px;
   }
 }
 .footer-container .footer-center p {
-  text-align: center; /* Centering the text */
+  text-align: center;
+  /* Centering the text */
 }
 
 @media (min-width: 1920px) {
@@ -379,160 +545,6 @@ footer {
 }
 .footer-container .footer-center p {
   text-align: center;
-} 
-:root {
-  --Main-Font: "Montserrat", sans-serif;
-  --Heading-Font: "Playfair Display", serif;
 }
 
-body {
-  line-height: 1.6;
-  font-family: "Montserrat", sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-}
-
-.menu {
-  margin: 2rem 0;
-}
-
-.menu-container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.menu-head {
-  text-align: center;
-}
-
-.menu-head h2 {
-  font-family: "Playfair Display", serif;
-  font-size: 2.8rem;
-  color: #ff9505;
-  margin-bottom: 0.5rem;
-}
-
-.menu-head p {
-  font-weight: 400;
-  font-size: 1.2rem;
-  width: 70%;
-  margin: 0 auto 2rem;
-}
-
-.menu-btns {
-  padding: 1rem 0;
-  display: flex;
-  justify-content: center;
-}
-
-.menu-btn {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  font-weight: 700;
-  background: none;
-  border: none;
-  color: #ff9505;
-  cursor: pointer;
-  margin: 0 2rem;
-  transition: color 0.3s ease;
-}
-
-.menu-btn:hover {
-  color: rgb(211, 132, 48);
-}
-
-.food-items {
-  margin: 2rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.food-item {
-  border-radius: 8px;
-  overflow: hidden;
-  background: #fff;
-  color: #ff9505;
-  margin: 1.5rem;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.food-item:hover {
-  transform: translateY(-5px);
-}
-
-.food-img img {
-  width: 100%;
-  height: 200px;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-.food-content {
-  padding: 1.5rem;
-  text-align: center;
-}
-
-.food-name {
-  font-family: "Playfair Display", serif;
-  color: var(--Accent-Color);
-  font-size: 1.6rem;
-  margin-bottom: 0.5rem;
-}
-
-.line {
-  width: 60px;
-  height: 3px;
-  background: #ff9505;
-  margin: 0 auto 1rem;
-}
-
-.food-price {
-  font-weight: 700;
-  font-size: 1.4rem;
-  color: #ff9505;
-  margin-bottom: 1rem;
-}
-
-.rating {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
-.rating .fa-star {
-  margin-right: 0.4rem;
-  color: #ff9505;
-}
-
-.category {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #ff9505;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 0.5rem;
-}
-
-@media screen and (min-width: 992px) {
-  .menu-head p {
-    width: 50%;
-  }
-  .food-items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    -moz-column-gap: 2rem;
-    column-gap: 2rem;
-  }
-}
-@media screen and (max-width: 390px) {
-  .menu-btn {
-    justify-content: center;
-    text-align: center;
-    margin: 0 0.5rem;
-  }
-}/*# sourceMappingURL=services.css.map */
+/*# sourceMappingURL=main.css.map */

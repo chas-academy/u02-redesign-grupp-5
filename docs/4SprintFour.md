@@ -103,24 +103,37 @@ Matewos: imported the design to main and almost finished with member page
 - Split folder with contact and new to two folders.
   Matewos fixes that.
 
-## Meeting thursday 16 oct 10:00
+## Meeting thursday 16 oct 10:30
 
 - Whats finished since yesterday?
 - Github checked off?
 
 **Priority today?**
 
-Red:
   - Everything merged to main!
   - Get all the pages ready!
   - Links works?
   - Looks good on everyboies computer?
 
-Yellow: get better scss system.
+**Red** 
 
-Green: Extra styling, extra sass, better text.
+Nejat: Acessability problem. 
+Nejat: Images needs to change size
+Nejat: Render problem Light House 
+Nejat: Navbar mobile view have centered, import font family navbar
+Matewos: Social media links main, 
+Matewos: Fix image and text in line main
+Matewos: ”Form element missing”
+Louise: ALT- text on all pictures.
+Mikael: Fix color, better contrast for Lighthouse
 
+**Yellow**
+ 
+Khaled: Validate news and contacs? Check in Lighthouse?
+Mikael: Validate Smulbox? Check in Lighthouse?
+Lolo: Validate? Screen shots to figma? Test? Update sprint docs and Github.
 
+Handledning 13:30.
 
 ## Meeting friday 17 nov 9:30
 
