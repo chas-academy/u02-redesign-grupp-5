@@ -162,7 +162,10 @@ h3 span {
     display: block;
     margin: 0;
     text-align: center;
+<<<<<<< HEAD
     justify-content: center;
+=======
+>>>>>>> 263fab57b6331bded5a215d557d6148b455cd926
   }
   .header #nav-check:checked ~ .nav {
     opacity: 1;

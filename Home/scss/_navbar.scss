@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap");
 
+=======
+>>>>>>> 263fab57b6331bded5a215d557d6148b455cd926
 :root {
   --color-1: rgb(239, 238, 238);
 }
@@ -44,6 +47,10 @@ ul {
 }
 .header h3 {
   font: normal 2rem "Cookie", cursive;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 263fab57b6331bded5a215d557d6148b455cd926
   color: $Accent-Color;
 }
 .header .logo,
@@ -148,7 +155,10 @@ h3 span {
     display: block;
     margin: 0;
     text-align: center;
+<<<<<<< HEAD
     justify-content: center;
+=======
+>>>>>>> 263fab57b6331bded5a215d557d6148b455cd926
   }
 
   .header #nav-check:checked ~ .nav {
