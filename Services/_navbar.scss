@@ -64,6 +64,7 @@ h3 span {
 .header .nav ul li {
   display: inline-block;
   margin-left: 40px;
+  
 }
 
 .header .nav ul li a {
@@ -147,6 +148,8 @@ h3 span {
   .header .nav ul li {
     display: block;
     margin: 0;
+    text-align: center;
+    justify-content: center;
   }
 
   .header #nav-check:checked ~ .nav {
