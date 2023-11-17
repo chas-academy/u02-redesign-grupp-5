@@ -85,7 +85,8 @@ figcaption {
 .landing-page > a:visited {
   color: #292929;
 }
-.landing-page > a:hover, .landing-page > a a:focus {
+.landing-page > a:hover,
+.landing-page > a a:focus {
   background-color: #d5a848;
   color: #292929;
   cursor: pointer;
@@ -328,7 +329,7 @@ h3 span {
   }
 
   .header #nav-check:checked ~ .nav-toggler span::before,
-.header #nav-check:checked ~ .nav-toggler span::after {
+  .header #nav-check:checked ~ .nav-toggler span::after {
     top: 0;
     transform: rotate(45deg);
     transition: transform 0.3s ease;
@@ -510,8 +511,8 @@ footer {
 
 @media (max-width: 880px) {
   .footer-container .footer-left,
-.footer-container .footer-center,
-.footer-container .footer-right {
+  .footer-container .footer-center,
+  .footer-container .footer-right {
     display: block;
     width: 100%;
     margin-bottom: auto;
@@ -519,7 +520,7 @@ footer {
   }
 
   .footer-container .footer-center i,
-.footer-container .footer-icons a {
+  .footer-container .footer-icons a {
     margin: 0 auto;
     /* Centering the icons horizontally */
     display: block;
@@ -527,7 +528,7 @@ footer {
 
   /*the change I made set the icons horizontally*/
   .footer-container .footer-right a,
-.footer-container .footer-right i {
+  .footer-container .footer-right i {
     display: inline;
     margin-right: 10px;
   }

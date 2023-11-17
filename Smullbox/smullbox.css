@@ -467,7 +467,8 @@ figcaption {
   color: #292929;
 }
 
-.landing-page > a:hover, .landing-page > a a:focus {
+.landing-page > a:hover,
+.landing-page > a a:focus {
   background-color: #d5a848;
   color: #292929;
   cursor: pointer;
@@ -900,10 +901,6 @@ body {
 
 .logo-color {
   background-color: rgb(239, 238, 238);
-}
-
-.span-color {
-  color: #d5a848;
 }
 
 .smullbox-menu-content {

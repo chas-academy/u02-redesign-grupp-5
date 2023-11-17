@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="smullbox.css" type="text/css" />
+    <link rel="stylesheet" href="../Home/scss/dist/main.css" />
     <title>Smullbox</title>
 
     <link
@@ -33,46 +34,37 @@
     />
   </head>
   <body>
-    <header class="header logo-color">
-      <div class="container logo-color">
-        <div
-          class="row .align-items-center .justify-content-between logo-color"
-        >
-          <div class="logo logo-color">
-            <a href="#">
-              <h3 class="logo-color">
-                Resto-Frit<span class="logo-color">Resto-Culinair</span>
-              </h3>
-            </a>
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="logo">
+            <a href=""><h3>Resto-Frit Resto-Culinair</h3></a>
           </div>
-          <input type="checkbox" id="nav-check" style="display: none" />
+          <input type="checkbox" id="nav-check" />
           <label for="nav-check" class="nav-toggler">
             <span></span>
           </label>
-
           <nav class="nav">
-            <ul class="logo-color">
+            <ul>
               <li>
-                <a href="/index.html" class="active logo-color">Home</a>
+                <a href="../index.html" class="active" target="_self">Home</a>
               </li>
               <li>
-                <a href="/Wholesalers/wholesalers.html" class="logo-color"
-                  >Supplier</a
+                <a href="../Wholesalers/wholesalers.html" target="_self"
+                  >Wholesalers</a
                 >
               </li>
               <li>
-                <a href="/Services/service.html" class="logo-color">Menu</a>
+                <a href="../Services/service.html" target="_self">Menu</a>
               </li>
               <li>
-                <a href="/Smullbox/smullbox.html" class="logo-color"
-                  >Kids' Menu</a
-                >
+                <a href="/Smullbox/smullbox.html" target="_self">Kids' Menu</a>
               </li>
               <li>
-                <a href="/News/news.html" class="logo-color">News</a>
+                <a href="../News/news.html" target="_self">News</a>
               </li>
               <li>
-                <a href="/contact/contact.html" class="logo-color">Contact</a>
+                <a href="../contact/contact.html" target="_self">Contact</a>
               </li>
             </ul>
           </nav>
@@ -87,11 +79,12 @@
           alt="smullbox food"
           width="100%"
           height="100%"
+          style="border-radius: 0"
         />
       </div>
       <div class="header-text">
-        <h3 class="header-3">KID'S MENU</h3>
-        <h1 class="header-1">KID'S MENU SO GOOD THEY'LL COME BACK FOR MORE</h1>
+        <h1 class="header-1">KID'S MENU</h1>
+        <h3 class="header-3">KID'S MENU SO GOOD THEY'LL COME BACK FOR MORE</h3>
         <p class="p-text">
           At Resto-Frit Resto-Culinair, we believe that any recipe we make is a
           good recipe. And that includes the Kid's menu. <br />
@@ -103,11 +96,10 @@
     <article class="smullbox-menu">
       <div class="smullbox-menu-content">
         <div class="smullbox-menu-text">
-          <h3>SUSTAINABLY <span class="span-color">GROWN FOOD</span></h3>
+          <h3>SUSTAINABLY GROWN FOOD</h3>
           <p>
             All food eaten from us is sustainably grown food. Only locally
-            produced and healthy. The best thing you can give to
-            <span class="span-color">your Kids.</span>
+            produced and healthy. The best thing you can give to your Kids.
           </p>
         </div>
         <img
@@ -115,21 +107,20 @@
           alt="Smullbox menu food"
           width="50%"
           height="100%"
+          style="border-radius: 0"
         />
       </div>
     </article>
     <article class="smullbox-menu">
       <div class="smullbox-menu-content-2">
         <div class="smullbox-menu-text">
-          <h3><span class="span-color">FEEDING</span> A BRIGHTER FUTURE</h3>
+          <h3>FEEDING A BRIGHTER FUTURE</h3>
           <p>
             At Smullbox, every order makes a difference. For every Smullbox
-            ordered, we contribute <span class="span-color">$1</span> to
-            <span class="span-color">FeedTheChildren.org</span>, dedicated to
+            ordered, we contribute $1 to FeedTheChildren.org, dedicated to
             helping kids in need get access to healthy food. Our food is
-            sustainably <span class="span-color">grown</span> and locally
-            produced, ensuring the best for
-            <span class="span-color">your Kids.</span>
+            sustainably grown and locally produced, ensuring the best for your
+            Kids.
           </p>
         </div>
         <img
@@ -137,14 +128,13 @@
           alt="Smullbox menu food"
           width="50%"
           height="100%"
+          style="border-radius: 0"
         />
       </div>
     </article>
     <article class="bottom-page">
       <div class="food-menus">
-        <h1 class="header-1">
-          So? What does a <span class="span-color">Kids menu </span>look like?
-        </h1>
+        <h1 class="header-1">So? What does a Kids menu look like?</h1>
         <h3>Here's an example of our most common Kid's menu</h3>
         <div class="food-menu-img">
           <img
@@ -152,19 +142,18 @@
             alt="Menu of food example"
             width="50%"
             height="100%"
+            style="border-radius: 0"
           />
         </div>
       </div>
       <div class="tailormake-food">
         <h1>What if my Kid can't eat that?</h1>
         <p>
-          At Smullbox, we believe in customization. We can
-          <span class="span-color">tailormake</span> your menu according to your
-          <span class="span-color">Kids'</span> wants and needs.<br />
-          <span class="span-color">Gluten intolerant?</span> No problem! We
-          provide options for special dietary needs at no extra cost. <br />Our
-          commitment is to ensure that every child gets a delicious and healthy
-          meal crafted just for them.<br />
+          At Smullbox, we believe in customization. We can tailormake your menu
+          according to your Kids'wants and needs.<br />
+          Gluten intolerant? No problem! We provide options for special dietary
+          needs at no extra cost. <br />Our commitment is to ensure that every
+          child gets a delicious and healthy meal crafted just for them.<br />
           Because every child is unique, and their food should be too.
         </p>
       </div>

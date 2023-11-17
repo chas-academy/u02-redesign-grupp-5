@@ -217,7 +217,7 @@ h3 span {
   }
 
   .header #nav-check:checked ~ .nav-toggler span::before,
-.header #nav-check:checked ~ .nav-toggler span::after {
+  .header #nav-check:checked ~ .nav-toggler span::after {
     top: 0;
     transform: rotate(45deg);
     transition: transform 0.3s ease;
