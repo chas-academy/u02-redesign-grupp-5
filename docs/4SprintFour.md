@@ -135,9 +135,9 @@ Lolo: Validate? Screen shots to figma? Test? Update sprint docs and Github.
 
 Handledning 13:30.
 
-## Meeting friday 17 nov 9:30
+## Meeting friday 17 nov 10:00
 
-- Are we on time with what we want to achieve? Yes 
+Acesssability
 
 - Sprint retrospective:
 
