@@ -5,7 +5,7 @@ $main-font-family: "Montserrat", sans-serif;
 $heading-font-family: "Playfair Display", serif;
 $color-background: #f9f9f9;
 $color-beige: #e4cf84;
-$color-gold: #d5a848;
+$color-gold: #ff9505;
 $text-color: #292929;
 $Accent-Color: #ff9505;
 $footer-font-color: #ffffff;
@@ -17,10 +17,9 @@ $footer-font-color: #ffffff;
 }
 
 
-
 .pre-title {
   margin-bottom: 0.9375rem;
-  font-size: 1.5rem !important;
+  font-size: 2rem !important;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 1px;
@@ -54,6 +53,10 @@ $footer-font-color: #ffffff;
 
 .section {
   padding: 30px 8px;
+}
+
+main {
+  padding: 5rem;
 }
 
 .phone {

@@ -386,12 +386,12 @@ footer {
 
 .pre-title {
   margin-bottom: 0.9375rem;
-  font-size: 1.5rem !important;
+  font-size: 2rem !important;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #d5a848 !important;
+  color: #ff9505 !important;
 }
 
 .page-title {
@@ -422,12 +422,16 @@ footer {
   padding: 30px 8px;
 }
 
+main {
+  padding: 5rem;
+}
+
 .phone {
   font-size: 21px;
   font-size: 1.3125rem;
   margin: 0;
   font-weight: bold;
-  color: #d5a848;
+  color: #ff9505;
 }
 
 .form input, .event {
@@ -453,7 +457,7 @@ footer {
 }
 
 .form .button {
-  background-color: #d5a848;
+  background-color: #ff9505;
 }
 
 .grid-6 {
