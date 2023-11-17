@@ -1,4 +1,4 @@
-@import "../Home/scss/design";
+@import "../Home/scss/design.scss";
 @import "../home/scss/navbar";
 @import "../Home/scss/footer";
 @import "../Home/scss/main.scss";
@@ -27,7 +27,7 @@ body {
 }
 
 .header-3 {
-  color: $color-gold;
+  color: $Accent-Color;
 }
 .p-text {
   font-weight: 100;
@@ -37,6 +37,9 @@ body {
 .header-text {
   padding: 10px;
   margin: 40px;
+}
+.header-1 {
+  color: $Accent-Color;
 }
 .logo-color {
   background-color: rgb(239, 238, 238);

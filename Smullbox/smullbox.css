@@ -885,7 +885,7 @@ body {
   }
 }
 .header-3 {
-  color: #d5a848;
+  color: #ff9505;
 }
 
 .p-text {
@@ -897,6 +897,10 @@ body {
 .header-text {
   padding: 10px;
   margin: 40px;
+}
+
+.header-1 {
+  color: #ff9505;
 }
 
 .logo-color {
