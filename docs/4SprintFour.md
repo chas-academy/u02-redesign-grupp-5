@@ -141,9 +141,11 @@ Acesssability
 
 - Sprint retrospective:
 
- ## - Whats good/bad over all:
+## - Whats good/bad over all
 
- - Nejat feedback:
+ - Nejat feedback
+
+---
 
 **Positive:**
 
@@ -159,19 +161,33 @@ Acesssability
 
 **Concern:** Strengthening internal communication can enhance our ability to collaborate seamlessly, ensuring everyone knows project developments and individual responsibilities.
 
+---
+ 
+- Louise feedback
 
-    - Matewos:
+---
 
-    - Mikael:
+**Positive:**
+It wa soverall an positive experience, and a fun working in a team like that.  
 
-    - Khaled:
+**Team Collaboration and Size:** 5 was a good size, easy to keep track and work togheter.
 
-    - Louise
+**Strength:** Our team size and our different experiences and skills! One was good at frontend, one with the terminal, one with figma, one with Github and so on. We tried to use that to our advantage.
 
-   ## - Workflow throughout the project:
+**Agile Methodology:** Was a fun and for us good way to work, we could try different approches and easy switch if we felt it did not work out well or gave the result we wanted.
 
-    - Nejat:
-    
+**Communication Within the Team:** We used Discord server with a GitBot connected to it and verybody wa s active there more or less. Sometimes you did not get answers in the chat but we had frequent meetings where we could discuss everthing also the questions raised in the chat.
+
+**Concern:** Some communication problems, some language barriärs and that we all where on different technical levels lead to some issue handling within the group, but it was good prctise to learn and overcome this.
+
+---
+
+## - Workflow throughout the project
+
+- Nejat
+
+---
+
   **Positive Aspects:**
 
 **Collaboration:**
@@ -187,17 +203,26 @@ Communication:
 
   -There is evidence of effective communication, enabling seamless sharing of information and updates within the team.
 
+---
 
-    - Matewos:
+- Louise: 
 
-    - Mikael:
+---
+ **Positive Aspects:**
 
-    - Khaled:
+**Collaboration:**
 
-    - Louise
+I think we all showed up great for each other.
+We had transperans communication and felt we could really talk and give feedback both good and bad to each other.
 
-  ## - Workload:
+---
+
+## - Workload
   
+- Nejat
+
+---
+
   **Positive:**
 
 **Team Collaboration:**
@@ -226,21 +251,24 @@ Our team of five worked well together, even though we were collaborating online.
 
 Personally, the workload felt heavier than I expected, affecting my ability to meet deadlines. Heavy workloads made it tough to manage time effectively and meet deadlines.
 
-    - Nejat:
+---
 
-    - Matewos:
+- Louise
 
-    - Mikael:
+---
 
-    - Khaled:
+I felt we had a good division of the workload, and we were helpful and tried to use or different skillsets and also learn new ones!
+It felt like everybody had something to do most of the time and we helped eachother if we were done early and so on.
 
-    - Louise
+---
 
-   ## - Timetable:
+## - Timetable
 
-    - Nejat:
-      
-  **Strength:** The four-week timeline provides a clear structure for our project, helping us stay focused and on track to meet assignment deadlines.
+- Nejat:
+
+---
+
+**Strength:** The four-week timeline provides a clear structure for our project, helping us stay focused and on track to meet assignment deadlines.
 Workflow Transparency:
 
 **Strength:** Transparency in task assignments and progress tracking is commendable. It aids in understanding our workflow and ensures everyone is on the same page.
@@ -253,20 +281,21 @@ Areas for improvement:
 
 Concern: I've observed challenges in managing time effectively due to our tight schedule. This may impact the thoroughness of our work and overall assignment quality.
 
+---
 
-    - Matewos:
+- Louise
 
-    - Mikael:
+---
 
-    - Khaled:
+Four weeks with one speint a week was a good set up that worked well for us. We had 3 meeting a week 3 first weeks then everday last week.
 
-    - Louise
+---
 
-  - Improvements/changes in any aspect of the project?
+### Improvements/changes in any aspect of the project?
 
     - Nejat:
-      
- **Recommendations for Improvement:**
+
+**Recommendations for Improvement:**
 
 **Time Management and Planning:**
 
@@ -285,11 +314,12 @@ Proposing regular team check-ins or status updates to strengthen internal commun
 
 Implement more frequent reviews of the project within the team to identify potential bottlenecks and areas for improvement.
 
+---
 
-    - Matewos:
+Louise:
 
-    - Mikael:
+---
 
-    - Khaled:
+If I can go back change anything it would be first week, that we had more detailed and in depth planning, the planning and structure in the beginning is very important.
 
-    - Louise
+---
