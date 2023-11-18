@@ -141,7 +141,90 @@ Acesssability
 
 - Sprint retrospective:
 
-  - Whats good/bad over all:
+ ## - Whats good/bad over all:
+
+ - Nejat feedback:
+
+**Positive:**
+
+**Team Collaboration and Size:**
+
+**Strength:** I find our team collaboration with five members to be effective. The smaller size allows for open communication and quicker decision-making, enhancing teamwork.
+
+**Agile Methodology:**
+
+**Strength:** The utilization of the agile approach has been valuable in adapting to changes and incorporating feedback, contributing to more dynamic and iterative project development.
+
+**Communication Within the Team:**
+
+**Concern:** Strengthening internal communication can enhance our ability to collaborate seamlessly, ensuring everyone knows project developments and individual responsibilities.
+
+
+    - Matewos:
+
+    - Mikael:
+
+    - Khaled:
+
+    - Louise
+
+   ## - Workflow throughout the project:
+
+    - Nejat:
+    
+  **Positive Aspects:**
+
+**Collaboration:**
+
+  -The team has demonstrated commendable collaboration, with members actively engaging in discussions and tasks.
+Adaptability:
+
+  -The agile methodology has proven effective in adapting to changes swiftly, showcasing flexibility in response to evolving project requirements.
+Transparency:
+
+  -The workflow appears transparent, facilitating a clear understanding of task progress and overall project status among team members.
+Communication:
+
+  -There is evidence of effective communication, enabling seamless sharing of information and updates within the team.
+
+
+    - Matewos:
+
+    - Mikael:
+
+    - Khaled:
+
+    - Louise
+
+  ## - Workload:
+  
+  **Positive:**
+
+**Team Collaboration:**
+
+Working together was great, and we had a positive team spirit.
+
+**Adaptability:**
+
+We were good at adjusting to changes quickly, thanks to our agile approach.
+
+**Transparency:**
+
+Everyone knew what was happening with the project, making it easy to stay on the same page.
+
+**Communication:**
+
+We communicated well, keeping everyone in the loop.
+
+**Team Size and Online Collaboration:**
+
+Our team of five worked well together, even though we were collaborating online.
+
+**Areas for improvement:**
+
+**Workload Intensity:**
+
+Personally, the workload felt heavier than I expected, affecting my ability to meet deadlines. Heavy workloads made it tough to manage time effectively and meet deadlines.
 
     - Nejat:
 
@@ -153,33 +236,23 @@ Acesssability
 
     - Louise
 
-  - Workflow throughout the project:
+   ## - Timetable:
 
     - Nejat:
+      
+  **Strength:** The four-week timeline provides a clear structure for our project, helping us stay focused and on track to meet assignment deadlines.
+Workflow Transparency:
 
-    - Matewos:
+**Strength:** Transparency in task assignments and progress tracking is commendable. It aids in understanding our workflow and ensures everyone is on the same page.
+Flexibility in Sprints:
 
-    - Mikael:
+**Strength:** The flexibility in our agile sprints allows us to adjust priorities based on evolving project needs, promoting adaptability and responsiveness.
+Areas for improvement:
 
-    - Khaled:
+**Time Management Challenges:**
 
-    - Louise
+Concern: I've observed challenges in managing time effectively due to our tight schedule. This may impact the thoroughness of our work and overall assignment quality.
 
-  - Workload:
-
-    - Nejat:
-
-    - Matewos:
-
-    - Mikael:
-
-    - Khaled:
-
-    - Louise
-
-  - Timetable:
-
-    - Nejat:
 
     - Matewos:
 
@@ -192,6 +265,26 @@ Acesssability
   - Improvements/changes in any aspect of the project?
 
     - Nejat:
+      
+ **Recommendations for Improvement:**
+
+**Time Management and Planning:**
+
+Suggest the development of a more detailed project plan with clear task breakdowns for each sprint to enhance time management and ensure all aspects of the assignment are covered.
+
+
+**Task Allocation and Collaboration:**
+
+Encouraging the team to assess individual workloads and communicate openly about tasks regularly can improve overall resource allocation and collaboration.
+
+**Internal Communication:**
+
+Proposing regular team check-ins or status updates to strengthen internal communication, ensuring everyone is informed and aligned on project progress and goals.
+
+**Regular Review:**
+
+Implement more frequent reviews of the project within the team to identify potential bottlenecks and areas for improvement.
+
 
     - Matewos:
 
