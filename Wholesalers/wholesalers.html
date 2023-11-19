@@ -1,51 +1,60 @@
-<!doctype html>
-<html lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="scss/dist/main.css">
-  <title>wholesalers</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This page is about the wholesalers">
 
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  <title>Wholesalers</title>
+  <link rel="stylesheet" href="./scss/dist/main.css">
+
+  <!--link for the header and footer-->
+  
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+    rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
     crossorigin="anonymous">
 
-
-
   <!-- Font Awesome 4.7.x -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--end of the links-->
 </head>
-
 <body>
   <header class="header">
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="logo">
-          <a href="#">
-            <a href="#">
-              <h3>Resto-Frit<span>Resto-Culinair</span></h3>
-            </a></a>
+          <a href=""><h1>Resto-Frit Resto-Culinair</h1></a>
         </div>
-        <input type="checkbox" id="nav-check" />
-        <label for="nav-check" class="nav-toggler">
+        <input type="checkbox" aria-label="Search"  id="nav-check">
+        <label for="nav-check"  class="nav-toggler">
           <span></span>
         </label>
+        
         <nav class="nav">
           <ul>
             <li>
               <a href="../index.html" class="active" target="_self">Home</a>
             </li>
-            <li><a href="../Wholesalers/wholesalers.html">Wholesalers</a></li>
+            <li>
+              <a href="../Wholesalers/wholesalers.html" target="_self"
+                >Wholesalers</a
+              >
+            </li>
             <li>
               <a href="../Services/service.html" target="_self">Services</a>
             </li>
             <li>
-              <a href="../Smullbox/smullbox.html" target="_self">Kids' Menu</a>
+              <a href="../Smullbox/smullbox.html" target="_self"
+                >Kids' Menu</a
+              >
             </li>
             <li>
               <a href="../News/news.html" target="_self">News</a>
@@ -60,11 +69,11 @@
   </header>
   <main>
     <article class="intro">
-      <h1>A community of catering wholesalers grouped under the Resto-Culinair flag!</h1>
+      <h2>A community of catering wholesalers grouped under the Resto-Culinair flag!</h2>
       <p>With over 15 independently owned wholesalers, widely spread locations offer dedicated catering service with the
         shared goal of improving quality and ultimate satisfaction for our customers!</p>
       <label for="wholesaler">Find a wholesaler</label>
-      <input id="wholesaler" class="search-bar" placeholder="Agora Cullinary" />
+      <input id="wholesaler" class="search-bar" placeholder="Agora Cullinary">
     </article>
     <div class="grid">
       <article>
@@ -204,13 +213,13 @@
       <h3>Resto-Frit<span>Resto-Culinair</span></h3>
 
       <p class="footer-links">
-        <a href="./wholesalers.html" alt="about" aria-label="About">Home</a>
+        <a href="../index.html" aria-label="Home">Home</a>
         |
-        <a href="../Smullbox/smullbox.html" alt="suppliers" aria-label="Suppliers">Kid's Menu</a>
+        <a href="../Services/service.html" aria-label="Services">Services</a>
         |
-        <a href="../News/news.html" alt="news" aria-label="News">News</a>
+        <a href="../News/news.html" aria-label="News">News</a>
         |
-        <a href="../contact/contact.html" alt="contact" aria-label="Contact">Contact</a>
+        <a href="../contact/contact.html" aria-label="Contact">Contact</a>
       </p>
     </div>
 
@@ -227,10 +236,13 @@
       <div>
         <i class="fa fa-envelope"></i>
         <p>
-          <a href="mailto:Resto@gmail.com" alt="company-email" aria-label="Resto@gmail.com">Resto@gmail.com</a>
+          <a href="mailto:Resto@gmail.com" aria-label="Resto@gmail.com"
+            >Resto@gmail.com</a
+          >
         </p>
       </div>
     </div>
+
     <div class="footer-right">
       <p class="footer-company-about">
         <span>About the company</span>
@@ -239,12 +251,21 @@
         numerous catering establishments.
       </p>
       <div class="footer-icons">
-        <a href="https://www.facebook.com/" alt="facebook" aria-label="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="https://se.search.instagram.com/" alt="instagram" aria-label="instagram"><i
-            class="fa fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/" alt="linkedin" aria-label="linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="https://twitter.com/" alt="twitter" aria-label="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.youtube.com/" alt="youtube" aria-label="youtube"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.facebook.com/" aria-label="facebook"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a href="https://se.search.instagram.com/" aria-label="instagram"
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/" aria-label="linkedin"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://twitter.com/" aria-label="twitter"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a href="https://www.youtube.com/" aria-label="youtube"
+          ><i class="fa fa-youtube"></i
+        ></a>
       </div>
     </div>
 
@@ -253,7 +274,7 @@
         Copyright © 2023 <strong>Group 5</strong> All rights reserved
       </p>
     </div>
-  </footer>
+  </footer> 
 </body>
 
 </html>

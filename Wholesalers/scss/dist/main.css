@@ -10,18 +10,6 @@ p {
   font-size: 1rem;
 }
 
-h1 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1rem;
-}
-
-p {
-  font-size: 1rem;
-}
-
 :root {
   --color-1: rgb(239, 238, 238);
 }
@@ -35,7 +23,6 @@ ul {
 }
 
 .container {
-  max-width: 100%;
   margin: auto;
 }
 
@@ -64,19 +51,19 @@ ul {
   margin: auto;
 }
 
-.header h3 {
-  font: normal 2rem "Cookie", cursive;
+.header h1 {
+  font: normal 1.3rem "Cookie", cursive;
   color: #ff9505;
 }
 
 .header .logo,
-h3 span {
+h1 span {
   color: #ff9505;
-  font: normal 2rem "Cookie", cursive;
+  font: normal 1.3rem "Cookie", cursive;
 }
 
 .header .logo a {
-  font: normal 36px "Cookie", cursive;
+  font: normal 1.5px "Cookie", cursive;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
   color: #ff9505;
@@ -103,7 +90,7 @@ h3 span {
 }
 
 .header #nav-check {
-  position: absolute;
+  position: relative;
   opacity: 0;
   pointer-events: none;
 }
@@ -121,6 +108,7 @@ h3 span {
   justify-content: center;
   /* Center the lines horizontally */
   margin-right: 15px;
+  padding: auto;
 }
 
 .nav-toggler span {
@@ -129,51 +117,15 @@ h3 span {
   width: 60%;
   /* Adjust the width of the lines as needed */
   background-color: #f9f9f9;
-  position: absolute;
+  position: relative;
 }
 
 .nav-toggler span::before,
 .nav-toggler span::after {
   content: "";
-  position: absolute;
+  position: relative;
   height: 100%;
   width: inherit;
-  background-color: #f9f9f9;
-}
-
-.nav-toggler span::before {
-  top: -6px;
-}
-
-.nav-toggler span::after {
-  bottom: -6px;
-}
-
-.nav-toggler {
-  height: 34px;
-  width: 44px;
-  background-color: #ba9494;
-  border-radius: 4px;
-  cursor: pointer;
-  display: none;
-  align-items: center;
-  margin-right: 15px;
-}
-
-.nav-toggler span {
-  display: block;
-  height: 2px;
-  background-color: #f9f9f9;
-  position: relative;
-  text-align: center;
-}
-
-.nav-toggler span::before,
-.nav-toggler span::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
   background-color: #f9f9f9;
   left: 0;
 }
@@ -183,14 +135,7 @@ h3 span {
 }
 
 .nav-toggler span::after {
-  top: 6px;
-}
-
-.nav-toggler span {
-  display: block;
-  height: 2px;
-  background-color: #f9f9f9;
-  position: relative;
+  bottom: -6px;
 }
 
 @media (max-width: 991px) {
@@ -213,7 +158,6 @@ h3 span {
   .header .nav ul li {
     display: block;
     margin: 0;
-    text-align: center;
   }
 
   .header #nav-check:checked ~ .nav {
@@ -463,14 +407,14 @@ html {
 
 body {
   font-family: "Thahoma", sans-serif;
-  background-color: #f9f9f9;
+  background-color: #fffdf6;
   color: #292929;
   height: 100vh;
   line-height: 1.5;
 }
 
-h1 {
-  color: #d5a848;
+h2 {
+  color: #ff9505;
   font-size: 3rem;
   line-height: 1.4;
   text-align: center;
@@ -490,7 +434,7 @@ p {
 }
 
 label {
-  color: #d5a848;
+  color: #ff9505;
   font-size: 1.5rem;
   font-weight: bold;
   display: block;
@@ -509,7 +453,7 @@ e-mail {
 }
 
 img {
-  diplay: block;
+  display: block;
   max-width: 80%;
   margin-bottom: 3rem;
 }
@@ -555,7 +499,7 @@ img {
 button {
   font-size: 1.2rem;
   color: whitesmoke;
-  background-color: #d5a848;
+  background-color: #ff9505;
   border-radius: 10px;
   padding: 10px 25px;
   margin: 15px;
@@ -568,7 +512,7 @@ button:hover {
 }
 
 .grid a {
-  color: #d5a848;
+  color: #ff9505;
   text-decoration: none;
   font-size: 1.2rem;
   padding: 0.5rem;
@@ -578,7 +522,7 @@ button:hover {
   color: #292929;
 }
 .grid a:hover, .grid a a:focus {
-  background-color: #d5a848;
+  background-color: #ff9505;
   color: #292929;
   cursor: pointer;
 }
@@ -594,6 +538,12 @@ button:hover {
   border-radius: 5px;
 }
 .search-bar:hover {
-  background-color: #d5a848;
+  background-color: #ff9505;
   color: #292929;
+}
+
+@media (min-width: 768px) {
+  .nav-toggler {
+    display: none !important;
+  }
 }

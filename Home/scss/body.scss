@@ -20,10 +20,12 @@ main {
   margin: 1rem auto;
 }
 .hero {
-  margin: 0.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-h1 {
-  color: $color-gold;
+h2 {
+  color: $Accent-Color;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -40,29 +42,11 @@ img {
   border-radius: 10px;
 }
 figcaption {
-  color: $color-gold;
+  color: $Accent-Color;
   font-size: 1.2rem;
   padding: 1rem;
   text-align: center;
   font-weight: bold;
-}
-
-.landing-page > a {
-  color: $color-gold;
-  margin: 2rem 4rem;
-
-  &:visited {
-    color: $text-color;
-  }
-  &:hover,
-  a:focus {
-    background-color: $color-gold;
-    color: $text-color;
-    cursor: pointer;
-  }
-  &:active {
-    color: $color-beige;
-  }
 }
 
 .event {
