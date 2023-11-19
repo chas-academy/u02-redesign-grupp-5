@@ -55,9 +55,6 @@ $footer-font-color: #ffffff;
   padding: 30px 8px;
 }
 
-main {
-  padding: 5rem;
-}
 
 .phone {
   font-size: 21px;
@@ -74,7 +71,7 @@ main {
   text-indent: 10px;
   height: 40px;
   border: 1px solid #cdcdcd;
-  padding: unset;
+  padding: unset !important;
 }
 
 .form p {
@@ -150,6 +147,9 @@ main {
 }
 
 @media only screen and (max-width: 400px) {
+  main {
+    padding: 0rem;
+  }
   .location, .form {
     width: 100%;
   }
@@ -179,8 +179,8 @@ main {
 }
 }
 @media only screen and (min-width: 401px) {
-  .location, .form {
-    /* width: 50%; */
+  main {
+    padding: 0rem;
   }
   .page-heading {
   margin: 50px;
@@ -234,6 +234,10 @@ main {
     margin-left: 0.50% !important;
     width: 27% !important;
   }
+  main {
+    padding: 1rem;
+  }
+  
 }
 @media only screen and (min-width: 300px) and (max-width: 2000px){
   .news-img {
@@ -243,5 +247,14 @@ main {
 @media only screen and (min-width: 2001px) {
   .news-img {
     height: 500px;
+  }
+  main {
+    padding: 5rem;
+  }
+}
+@media only screen and (min-width: 1900px) {
+
+  main {
+    padding: 5rem;
   }
 }
