@@ -25,9 +25,9 @@ Nejat: Imported more variables and helt the others get the import right.
 
 Matewos: work on member page and get the index page more rsponsive to bigger screen, find out if the scss is compiling the right way.
 
-Lolo: update sprint doc, edit content index.
+Lolo: Update sprint doc, edit content index.
 
-Mikael: fix smulbox header and footer
+Mikael: Fix smulbox header and footer.
 
 Khaled: Smallfixes on contact page.
 
@@ -67,8 +67,7 @@ It'd be good if someone could take care of:
 - Mikael: Goes thorugh code and design and see if he has suggestions for change, because he is the most experienced in frontend.
 - Matewos: priority to fix structure of folder so the linking is right
 
-
-- Togheter: 
+- Togheter:
 
   - Finding doublettes, problem with scss not compiling right, navbar looks diffrent and design is not right on everybodies page.
   - Validate ready pages.
@@ -93,7 +92,7 @@ Matewos: imported the design to main and almost finished with member page
 
 **Handledning 13:00 today** *Everybody make a list of what they think is priority and we need help with.* :
 
-- Fix the import problem and scss problems and why there is doublettes and how to aoid them. 
+- Fix the import problem and scss problems and why there is doublettes and how to aoid them.
 - We get som clear advice about how to prioritize.
 - Go through how to get better lighthouse score. 
   - Specify img size in VS, or change size before using in VS? 
@@ -105,15 +104,12 @@ Matewos: imported the design to main and almost finished with member page
 
 ## Meeting thursday 16 oct 10:30
 
-- Whats finished since yesterday?
-- Github checked off?
-
-**Priority today?**
+**Priority today**
 
   - Everything merged to main!
   - Get all the pages ready!
   - Links works?
-  - Looks good on everyboies computer?
+  - Looks good on everybodies computer?
 
 **Red** 
 
@@ -137,13 +133,11 @@ Handledning 13:30.
 
 ## Meeting friday 17 nov 10:00
 
-Acesssability
+Acesssability and small design issues is priority today, everything work togheter and its only minor stuff to fix now. We also work a bit in the weekend togheter to fix the last stuff.
 
-- Sprint retrospective:
+### Sprint retrospective
 
 ## - Whats good/bad over all
-
- - Nejat feedback
 
 ---
 
@@ -160,10 +154,6 @@ Acesssability
 **Communication Within the Team:**
 
 **Concern:** Strengthening internal communication can enhance our ability to collaborate seamlessly, ensuring everyone knows project developments and individual responsibilities.
-
----
- 
-- Louise feedback
 
 ---
 
@@ -184,8 +174,6 @@ It wa soverall an positive experience, and a fun working in a team like that.
 
 ## - Workflow throughout the project
 
-- Nejat
-
 ---
 
   **Positive Aspects:**
@@ -204,10 +192,6 @@ Communication:
   -There is evidence of effective communication, enabling seamless sharing of information and updates within the team.
 
 ---
-
-- Louise: 
-
----
  **Positive Aspects:**
 
 **Collaboration:**
@@ -218,8 +202,6 @@ We had transperans communication and felt we could really talk and give feedback
 ---
 
 ## - Workload
-  
-- Nejat
 
 ---
 
@@ -253,18 +235,12 @@ Personally, the workload felt heavier than I expected, affecting my ability to m
 
 ---
 
-- Louise
-
----
-
 I felt we had a good division of the workload, and we were helpful and tried to use or different skillsets and also learn new ones!
 It felt like everybody had something to do most of the time and we helped eachother if we were done early and so on.
 
 ---
 
 ## - Timetable
-
-- Nejat:
 
 ---
 
@@ -283,17 +259,12 @@ Concern: I've observed challenges in managing time effectively due to our tight 
 
 ---
 
-- Louise
-
----
-
 Four weeks with one speint a week was a good set up that worked well for us. We had 3 meeting a week 3 first weeks then everday last week.
 
 ---
 
 ### Improvements/changes in any aspect of the project?
 
-    - Nejat:
 
 **Recommendations for Improvement:**
 
@@ -313,10 +284,6 @@ Proposing regular team check-ins or status updates to strengthen internal commun
 **Regular Review:**
 
 Implement more frequent reviews of the project within the team to identify potential bottlenecks and areas for improvement.
-
----
-
-Louise:
 
 ---
 
