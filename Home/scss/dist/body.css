@@ -35,11 +35,13 @@ main {
 }
 
 .hero {
-  margin: 0.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-h1 {
-  color: #d5a848;
+h2 {
+  color: #ff9505;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -59,28 +61,11 @@ img {
 }
 
 figcaption {
-  color: #d5a848;
+  color: #ff9505;
   font-size: 1.2rem;
   padding: 1rem;
   text-align: center;
   font-weight: bold;
-}
-
-.landing-page > a {
-  color: #d5a848;
-  margin: 2rem 4rem;
-}
-.landing-page > a:visited {
-  color: #292929;
-}
-.landing-page > a:hover,
-.landing-page > a a:focus {
-  background-color: #d5a848;
-  color: #292929;
-  cursor: pointer;
-}
-.landing-page > a:active {
-  color: #e4cf84;
 }
 
 .event {

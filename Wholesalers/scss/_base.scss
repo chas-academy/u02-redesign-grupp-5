@@ -1,3 +1,4 @@
+@import './variables';
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,7 @@ body {
   height: 100vh;
   line-height: 1.5;
 }
-h1 {
+h2 {
   color: $primary-color;
   font-size: 3rem;
   line-height: 1.4;

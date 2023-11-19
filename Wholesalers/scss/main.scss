@@ -7,6 +7,12 @@
 @import './button';
 
 
+@media (min-width: 768px){
+   .nav-toggler {
+    display: none !important;
+  }
+}
+
 
   
 
