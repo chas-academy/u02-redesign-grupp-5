@@ -51,19 +51,19 @@ ul {
   margin: auto;
 }
 
-.header h3 {
-  font: normal 2rem "Cookie", cursive;
+.header h1 {
+  font: normal 1.3rem "Cookie", cursive;
   color: #ff9505;
 }
 
 .header .logo,
-h3 span {
+h1 span {
   color: #ff9505;
-  font: normal 2rem "Cookie", cursive;
+  font: normal 1.3rem "Cookie", cursive;
 }
 
 .header .logo a {
-  font: normal 36px "Cookie", cursive;
+  font: normal 1.5px "Cookie", cursive;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
   color: #ff9505;

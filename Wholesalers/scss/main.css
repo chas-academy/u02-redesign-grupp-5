@@ -51,19 +51,19 @@ ul {
   margin: auto;
 }
 
-.header h3 {
-  font: normal 2rem "Cookie", cursive;
+.header h1 {
+  font: normal 1.3rem "Cookie", cursive;
   color: #ff9505;
 }
 
 .header .logo,
-h3 span {
+h1 span {
   color: #ff9505;
-  font: normal 2rem "Cookie", cursive;
+  font: normal 1.3rem "Cookie", cursive;
 }
 
 .header .logo a {
-  font: normal 36px "Cookie", cursive;
+  font: normal 1.5px "Cookie", cursive;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
   color: #ff9505;
@@ -391,13 +391,13 @@ html {
 
 body {
   font-family: "Thahoma", sans-serif;
-  background-color: #f9f9f9;
+  background-color: #fffdf6;
   color: #292929;
   height: 100vh;
   line-height: 1.5;
 }
 
-h1 {
+h2 {
   color: #ff9505;
   font-size: 3rem;
   line-height: 1.4;
@@ -524,4 +524,10 @@ button:hover {
 .search-bar:hover {
   background-color: #ff9505;
   color: #292929;
+}
+
+@media (min-width: 768px) {
+  .nav-toggler {
+    display: none !important;
+  }
 }/*# sourceMappingURL=main.css.map */

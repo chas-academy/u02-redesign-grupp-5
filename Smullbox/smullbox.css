@@ -51,19 +51,19 @@ ul {
   margin: auto;
 }
 
-.header h3 {
-  font: normal 2rem "Cookie", cursive;
+.header h1 {
+  font: normal 1.3rem "Cookie", cursive;
   color: #ff9505;
 }
 
 .header .logo,
-h3 span {
+h1 span {
   color: #ff9505;
-  font: normal 2rem "Cookie", cursive;
+  font: normal 1.3rem "Cookie", cursive;
 }
 
 .header .logo a {
-  font: normal 36px "Cookie", cursive;
+  font: normal 1.5px "Cookie", cursive;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
   color: #ff9505;
@@ -427,11 +427,13 @@ main {
 }
 
 .hero {
-  margin: 0.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-h1 {
-  color: #d5a848;
+h2 {
+  color: #ff9505;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -451,31 +453,11 @@ img {
 }
 
 figcaption {
-  color: #d5a848;
+  color: #ff9505;
   font-size: 1.2rem;
   padding: 1rem;
   text-align: center;
   font-weight: bold;
-}
-
-.landing-page > a {
-  color: #d5a848;
-  margin: 2rem 4rem;
-}
-
-.landing-page > a:visited {
-  color: #292929;
-}
-
-.landing-page > a:hover,
-.landing-page > a a:focus {
-  background-color: #d5a848;
-  color: #292929;
-  cursor: pointer;
-}
-
-.landing-page > a:active {
-  color: #e4cf84;
 }
 
 .event {
@@ -534,19 +516,19 @@ ul {
   margin: auto;
 }
 
-.header h3 {
-  font: normal 2rem "Cookie", cursive;
+.header h1 {
+  font: normal 1.3rem "Cookie", cursive;
   color: #ff9505;
 }
 
 .header .logo,
-h3 span {
+h1 span {
   color: #ff9505;
-  font: normal 2rem "Cookie", cursive;
+  font: normal 1.3rem "Cookie", cursive;
 }
 
 .header .logo a {
-  font: normal 36px "Cookie", cursive;
+  font: normal 1.5px "Cookie", cursive;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
   color: #ff9505;
@@ -861,6 +843,11 @@ footer {
 .footer-container .footer-center p {
   text-align: center;
 } 
+@media (min-width: 768px) {
+  .nav-toggler {
+    display: none !important;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -884,7 +871,8 @@ body {
     padding-bottom: 10px;
   }
 }
-.header-3 {
+.header .logo a .header .logo,
+h3 span .header h3 .header-3 {
   color: #ff9505;
 }
 
